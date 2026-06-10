@@ -5,6 +5,14 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    # docs and pipeline-only changes don't alter the built site — skip the deploy
+    # (a push deploys unless EVERY changed file matches one of these)
+    paths-ignore:
+      - '**.md'
+      - '.gitignore'
+      - 'scripts/**' # data pipeline & dev tooling: affects future data runs, not dist
+      - '.github/workflows/update-data.yml'
+      - '.github/workflows/ci.yml'
   workflow_dispatch:
 
 permissions:
