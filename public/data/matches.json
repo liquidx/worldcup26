@@ -7,16 +7,16 @@
    "group": "A",
    "date": "2026-06-11T19:00:00Z",
    "venueId": "400222084",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "6'",
    "home": {
     "code": "MEX",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "RSA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "A1",

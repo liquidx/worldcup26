@@ -1525,17 +1525,17 @@
     "wiki": "https://en.wikipedia.org/wiki/Stjepan_Radelji%C4%87"
    },
    {
-    "id": "nidal-celik",
+    "id": "arjan-malic",
     "no": 24,
     "pos": "DF",
-    "name": "Nidal Čelik",
-    "dob": "2006-07-17",
-    "caps": 2,
+    "name": "Arjan Malić",
+    "dob": "2005-08-28",
+    "caps": 8,
     "goals": 0,
-    "club": "Lens",
-    "clubNat": "FRA",
+    "club": "Sturm Graz",
+    "clubNat": "AUT",
     "captain": false,
-    "wiki": "https://en.wikipedia.org/wiki/Nidal_%C4%8Celik"
+    "wiki": "https://en.wikipedia.org/wiki/Arjan_Mali%C4%87"
    },
    {
     "id": "benjamin-tahirovic",
@@ -1989,19 +1989,6 @@
     "wiki": "https://en.wikipedia.org/wiki/Nathan_Saliba"
    },
    {
-    "id": "jayden-nelson",
-    "no": 26,
-    "pos": "MF",
-    "name": "Jayden Nelson",
-    "dob": "2002-02-07",
-    "caps": 14,
-    "goals": 3,
-    "club": "Austin FC",
-    "clubNat": "USA",
-    "captain": false,
-    "wiki": "https://en.wikipedia.org/wiki/Jayden_Nelson"
-   },
-   {
     "id": "cyle-larin",
     "no": 9,
     "pos": "FW",
@@ -2078,6 +2065,19 @@
     "clubNat": "BEL",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Promise_David"
+   },
+   {
+    "id": "jayden-nelson",
+    "no": 26,
+    "pos": "FW",
+    "name": "Jayden Nelson",
+    "dob": "2002-09-26",
+    "caps": 14,
+    "goals": 3,
+    "club": "Austin FC",
+    "clubNat": "USA",
+    "captain": false,
+    "wiki": "https://en.wikipedia.org/wiki/Jayden_Nelson"
    }
   ]
  },
@@ -3247,6 +3247,19 @@
     "wiki": "https://en.wikipedia.org/wiki/Duke_Lacroix"
    },
    {
+    "id": "garven-metusala",
+    "no": 14,
+    "pos": "DF",
+    "name": "Garven Metusala",
+    "dob": "1999-12-31",
+    "caps": 16,
+    "goals": 0,
+    "club": "Colorado Springs Switchbacks FC",
+    "clubNat": "USA",
+    "captain": false,
+    "wiki": "https://en.wikipedia.org/wiki/Garven_Metusala"
+   },
+   {
     "id": "jean-kevin-duverne",
     "no": 22,
     "pos": "DF",
@@ -3297,19 +3310,6 @@
     "clubNat": "ENG",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Jean-Ricner_Bellegarde"
-   },
-   {
-    "id": "leverton-pierre",
-    "no": 14,
-    "pos": "MF",
-    "name": "Leverton Pierre",
-    "dob": "1998-03-09",
-    "caps": 33,
-    "goals": 0,
-    "club": "Vizela",
-    "clubNat": "POR",
-    "captain": false,
-    "wiki": "https://en.wikipedia.org/wiki/Leverton_Pierre"
    },
    {
     "id": "danley-jean-jacques",
@@ -4834,7 +4834,7 @@
     "no": 21,
     "pos": "FW",
     "name": "Gabriel Ávalos",
-    "dob": "1990-10-12",
+    "dob": "1991-07-09",
     "caps": 23,
     "goals": 2,
     "club": "Independiente",
@@ -7103,19 +7103,6 @@
     "wiki": "https://en.wikipedia.org/wiki/Junnosuke_Suzuki"
    },
    {
-    "id": "wataru-endo",
-    "no": 6,
-    "pos": "MF",
-    "name": "Wataru Endo",
-    "dob": "1993-02-09",
-    "caps": 73,
-    "goals": 4,
-    "club": "Liverpool",
-    "clubNat": "ENG",
-    "captain": false,
-    "wiki": "https://en.wikipedia.org/wiki/Wataru_Endo"
-   },
-   {
     "id": "ao-tanaka",
     "no": 7,
     "pos": "MF",
@@ -7231,6 +7218,19 @@
     "clubNat": "GER",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Kaish%C5%AB_Sano"
+   },
+   {
+    "id": "shuto-machino",
+    "no": 6,
+    "pos": "FW",
+    "name": "Shuto Machino",
+    "dob": "1999-09-30",
+    "caps": 14,
+    "goals": 5,
+    "club": "Borussia Mönchengladbach",
+    "clubNat": "GER",
+    "captain": false,
+    "wiki": "https://en.wikipedia.org/wiki/Shuto_Machino"
    },
    {
     "id": "keisuke-goto",
@@ -8999,7 +8999,7 @@
     "pos": "FW",
     "name": "Omar Marmoush",
     "dob": "1999-02-07",
-    "caps": 49,
+    "caps": 50,
     "goals": 11,
     "club": "Manchester City",
     "clubNat": "ENG",
@@ -10803,10 +10803,10 @@
     "wiki": "https://en.wikipedia.org/wiki/Fernando_Muslera"
    },
    {
-    "id": "jose-gimenez",
+    "id": "jose-maria-gimenez",
     "no": 2,
     "pos": "DF",
-    "name": "José Giménez",
+    "name": "José María Giménez",
     "dob": "1995-01-20",
     "caps": 99,
     "goals": 8,
@@ -12737,7 +12737,7 @@
     "no": 24,
     "pos": "MF",
     "name": "Yacine Titraoui",
-    "dob": "2003-08-26",
+    "dob": "2003-07-26",
     "caps": 5,
     "goals": 0,
     "club": "Charleroi",
@@ -12883,6 +12883,19 @@
     "clubNat": "ENG",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez"
+   },
+   {
+    "id": "marcos-senesi",
+    "no": 2,
+    "pos": "DF",
+    "name": "Marcos Senesi",
+    "dob": "1997-05-10",
+    "caps": 3,
+    "goals": 0,
+    "club": "Bournemouth",
+    "clubNat": "ENG",
+    "captain": false,
+    "wiki": "https://en.wikipedia.org/wiki/Marcos_Senesi"
    },
    {
     "id": "nicolas-tagliafico",
@@ -13644,19 +13657,6 @@
     "wiki": "https://en.wikipedia.org/wiki/Salim_Obaid"
    },
    {
-    "id": "mohammad-taha",
-    "no": 18,
-    "pos": "DF",
-    "name": "Mohammad Taha",
-    "dob": "2005-07-13",
-    "caps": 2,
-    "goals": 0,
-    "club": "Al-Hussein",
-    "clubNat": "JOR",
-    "captain": false,
-    "wiki": "https://en.wikipedia.org/wiki/Mohammad_Taha_(footballer)"
-   },
-   {
     "id": "saed-al-rosan",
     "no": 19,
     "pos": "DF",
@@ -13746,6 +13746,19 @@
     "clubNat": "IRQ",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Sadeh"
+   },
+   {
+    "id": "mohammad-taha",
+    "no": 18,
+    "pos": "MF",
+    "name": "Mohammad Taha",
+    "dob": "2005-07-13",
+    "caps": 2,
+    "goals": 0,
+    "club": "Al-Hussein",
+    "clubNat": "JOR",
+    "captain": false,
+    "wiki": "https://en.wikipedia.org/wiki/Mohammad_Taha_(footballer)"
    },
    {
     "id": "mohannad-abu-taha",
@@ -14799,7 +14812,7 @@
     "club": "Paris Saint-Germain",
     "clubNat": "FRA",
     "captain": false,
-    "wiki": "https://en.wikipedia.org/wiki/Vitinha_(footballer%2C_born_February_2000)"
+    "wiki": "https://en.wikipedia.org/wiki/Vitinha"
    },
    {
     "id": "cristiano-ronaldo",

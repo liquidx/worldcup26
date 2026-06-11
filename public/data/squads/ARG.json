@@ -45,6 +45,19 @@
    "wiki": "https://en.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez"
   },
   {
+   "id": "marcos-senesi",
+   "no": 2,
+   "pos": "DF",
+   "name": "Marcos Senesi",
+   "dob": "1997-05-10",
+   "caps": 3,
+   "goals": 0,
+   "club": "Bournemouth",
+   "clubNat": "ENG",
+   "captain": false,
+   "wiki": "https://en.wikipedia.org/wiki/Marcos_Senesi"
+  },
+  {
    "id": "nicolas-tagliafico",
    "no": 3,
    "pos": "DF",

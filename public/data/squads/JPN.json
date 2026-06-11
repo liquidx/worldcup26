@@ -162,19 +162,6 @@
    "wiki": "https://en.wikipedia.org/wiki/Junnosuke_Suzuki"
   },
   {
-   "id": "wataru-endo",
-   "no": 6,
-   "pos": "MF",
-   "name": "Wataru Endo",
-   "dob": "1993-02-09",
-   "caps": 73,
-   "goals": 4,
-   "club": "Liverpool",
-   "clubNat": "ENG",
-   "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Wataru_Endo"
-  },
-  {
    "id": "ao-tanaka",
    "no": 7,
    "pos": "MF",
@@ -290,6 +277,19 @@
    "clubNat": "GER",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Kaish%C5%AB_Sano"
+  },
+  {
+   "id": "shuto-machino",
+   "no": 6,
+   "pos": "FW",
+   "name": "Shuto Machino",
+   "dob": "1999-09-30",
+   "caps": 14,
+   "goals": 5,
+   "club": "Borussia Mönchengladbach",
+   "clubNat": "GER",
+   "captain": false,
+   "wiki": "https://en.wikipedia.org/wiki/Shuto_Machino"
   },
   {
    "id": "keisuke-goto",

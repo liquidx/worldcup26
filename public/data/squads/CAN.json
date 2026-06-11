@@ -253,19 +253,6 @@
    "wiki": "https://en.wikipedia.org/wiki/Nathan_Saliba"
   },
   {
-   "id": "jayden-nelson",
-   "no": 26,
-   "pos": "MF",
-   "name": "Jayden Nelson",
-   "dob": "2002-02-07",
-   "caps": 14,
-   "goals": 3,
-   "club": "Austin FC",
-   "clubNat": "USA",
-   "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Jayden_Nelson"
-  },
-  {
    "id": "cyle-larin",
    "no": 9,
    "pos": "FW",
@@ -342,6 +329,19 @@
    "clubNat": "BEL",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Promise_David"
+  },
+  {
+   "id": "jayden-nelson",
+   "no": 26,
+   "pos": "FW",
+   "name": "Jayden Nelson",
+   "dob": "2002-09-26",
+   "caps": 14,
+   "goals": 3,
+   "club": "Austin FC",
+   "clubNat": "USA",
+   "captain": false,
+   "wiki": "https://en.wikipedia.org/wiki/Jayden_Nelson"
   }
  ]
 }

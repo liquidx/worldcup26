@@ -123,6 +123,19 @@
    "wiki": "https://en.wikipedia.org/wiki/Duke_Lacroix"
   },
   {
+   "id": "garven-metusala",
+   "no": 14,
+   "pos": "DF",
+   "name": "Garven Metusala",
+   "dob": "1999-12-31",
+   "caps": 16,
+   "goals": 0,
+   "club": "Colorado Springs Switchbacks FC",
+   "clubNat": "USA",
+   "captain": false,
+   "wiki": "https://en.wikipedia.org/wiki/Garven_Metusala"
+  },
+  {
    "id": "jean-kevin-duverne",
    "no": 22,
    "pos": "DF",
@@ -173,19 +186,6 @@
    "clubNat": "ENG",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Jean-Ricner_Bellegarde"
-  },
-  {
-   "id": "leverton-pierre",
-   "no": 14,
-   "pos": "MF",
-   "name": "Leverton Pierre",
-   "dob": "1998-03-09",
-   "caps": 33,
-   "goals": 0,
-   "club": "Vizela",
-   "clubNat": "POR",
-   "captain": false,
-   "wiki": "https://en.wikipedia.org/wiki/Leverton_Pierre"
   },
   {
    "id": "danley-jean-jacques",
