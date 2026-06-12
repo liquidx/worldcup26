@@ -126,10 +126,10 @@
    "date": "2026-06-12T19:00:00Z",
    "venueId": "400242032",
    "status": "live",
-   "time": "73'",
+   "time": "87'",
    "home": {
     "code": "CAN",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
@@ -140,7 +140,7 @@
    "phA": "B1",
    "phB": "B2",
    "winner": null,
-   "attendance": null,
+   "attendance": 43002,
    "officials": [
     {
      "id": "416165",
