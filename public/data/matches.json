@@ -67,10 +67,10 @@
    "date": "2026-06-12T02:00:00Z",
    "venueId": "400252150",
    "status": "live",
-   "time": "67'",
+   "time": "80'",
    "home": {
     "code": "KOR",
-    "score": 0,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -88,18 +88,18 @@
      "country": "EGY",
      "role": "referee",
      "name": {
-      "en": "Amin MOHAMED",
-      "fr": "Amin MOHAMED",
-      "zh": "Amin MOHAMED",
-      "ar": "Amin MOHAMED",
-      "es": "Amin MOHAMED",
-      "de": "Amin MOHAMED",
-      "pt": "Amin MOHAMED",
-      "it": "Amin MOHAMED",
-      "ja": "Amin MOHAMED",
-      "ko": "Amin MOHAMED",
-      "id": "Amin MOHAMED",
-      "ru": "Amin MOHAMED"
+      "en": "Amin Omar",
+      "fr": "Amin Omar",
+      "zh": "Amin Omar",
+      "ar": "Amin Omar",
+      "es": "Amin Omar",
+      "de": "Amin Omar",
+      "pt": "Amin Omar",
+      "it": "Amin Omar",
+      "ja": "Amin Omar",
+      "ko": "Amin Omar",
+      "id": "Amin Omar",
+      "ru": "Amin Omar"
      },
      "typeName": {
       "en": "Referee",

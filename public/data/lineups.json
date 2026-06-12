@@ -292,13 +292,38 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "395084",
+     "minute": "67'",
+     "type": 2,
+     "period": 5
+    },
+    {
+     "player": "448586",
+     "minute": "80'",
+     "type": 2,
+     "period": 5
+    }
+   ],
    "bookings": [],
    "substitutions": [
     {
      "off": "390525",
      "on": "395083",
      "minute": "62'",
+     "period": 5
+    },
+    {
+     "off": "307849",
+     "on": "448586",
+     "minute": "69'",
+     "period": 5
+    },
+    {
+     "off": "423880",
+     "on": "423855",
+     "minute": "69'",
      "period": 5
     }
    ]
@@ -607,13 +632,13 @@
    "substitutions": [
     {
      "off": "486082",
-     "on": "483961",
+     "on": "433754",
      "minute": "63'",
      "period": 5
     },
     {
      "off": "401481",
-     "on": "433754",
+     "on": "483961",
      "minute": "63'",
      "period": 5
     },
@@ -625,7 +650,7 @@
     }
    ]
   },
-  "matchTime": "67'",
+  "matchTime": "80'",
   "period": 5,
   "final": false
  },
