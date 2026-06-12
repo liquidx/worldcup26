@@ -464,26 +464,26 @@
     "rank": 1
    },
    {
-    "code": "CZE",
-    "p": 0,
-    "w": 0,
+    "code": "KOR",
+    "p": 1,
+    "w": 1,
     "d": 0,
     "l": 0,
-    "gf": 0,
-    "ga": 0,
-    "gd": 0,
-    "pts": 0,
+    "gf": 2,
+    "ga": 1,
+    "gd": 1,
+    "pts": 3,
     "rank": 2
    },
    {
-    "code": "KOR",
-    "p": 0,
+    "code": "CZE",
+    "p": 1,
     "w": 0,
     "d": 0,
-    "l": 0,
-    "gf": 0,
-    "ga": 0,
-    "gd": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 2,
+    "gd": -1,
     "pts": 0,
     "rank": 3
    },
@@ -603,21 +603,6 @@
  },
  "thirds": [
   {
-   "group": "A",
-   "code": "KOR",
-   "p": 0,
-   "w": 0,
-   "d": 0,
-   "l": 0,
-   "gf": 0,
-   "ga": 0,
-   "gd": 0,
-   "pts": 0,
-   "rank": 3,
-   "thirdRank": 1,
-   "qualifies": null
-  },
-  {
    "group": "B",
    "code": "QAT",
    "p": 0,
@@ -629,7 +614,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 2,
+   "thirdRank": 1,
    "qualifies": null
   },
   {
@@ -644,7 +629,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 3,
+   "thirdRank": 2,
    "qualifies": null
   },
   {
@@ -659,7 +644,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 4,
+   "thirdRank": 3,
    "qualifies": null
   },
   {
@@ -674,7 +659,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 5,
+   "thirdRank": 4,
    "qualifies": null
   },
   {
@@ -689,7 +674,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 6,
+   "thirdRank": 5,
    "qualifies": null
   },
   {
@@ -704,7 +689,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 7,
+   "thirdRank": 6,
    "qualifies": null
   },
   {
@@ -719,7 +704,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 8,
+   "thirdRank": 7,
    "qualifies": null
   },
   {
@@ -734,7 +719,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 9,
+   "thirdRank": 8,
    "qualifies": null
   },
   {
@@ -749,7 +734,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 10,
+   "thirdRank": 9,
    "qualifies": null
   },
   {
@@ -764,7 +749,7 @@
    "gd": 0,
    "pts": 0,
    "rank": 3,
-   "thirdRank": 11,
+   "thirdRank": 10,
    "qualifies": null
   },
   {
@@ -777,6 +762,21 @@
    "gf": 0,
    "ga": 0,
    "gd": 0,
+   "pts": 0,
+   "rank": 3,
+   "thirdRank": 11,
+   "qualifies": null
+  },
+  {
+   "group": "A",
+   "code": "CZE",
+   "p": 1,
+   "w": 0,
+   "d": 0,
+   "l": 1,
+   "gf": 1,
+   "ga": 2,
+   "gd": -1,
    "pts": 0,
    "rank": 3,
    "thirdRank": 12,
