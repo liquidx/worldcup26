@@ -244,7 +244,7 @@
    "date": "2026-06-14T01:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "HAI",
     "score": null,
@@ -362,7 +362,7 @@
    "date": "2026-06-13T22:00:00Z",
    "venueId": "400257536",
    "status": "live",
-   "time": "66'",
+   "time": "80'",
    "home": {
     "code": "BRA",
     "score": 1,
@@ -376,7 +376,7 @@
    "phA": "C1",
    "phB": "C2",
    "winner": null,
-   "attendance": null,
+   "attendance": 80663,
    "officials": [
     {
      "id": "315008",
