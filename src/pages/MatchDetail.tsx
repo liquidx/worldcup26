@@ -118,24 +118,27 @@ export default function MatchDetail() {
   const goalRows = useMemo<GoalRow[]>(() => {
     if (!m || !lu) return []
     const rows: GoalRow[] = []
-    const collect = (tl: TeamLineup | null, code: string | null) => {
+    const collect = (tl: TeamLineup | null, other: TeamLineup | null, code: string | null) => {
       if (!tl) return
       const all = [...tl.xi, ...tl.subs]
+      // own goals sit in the benefiting team's goals with the opponent player's id
+      const opponents = other ? [...other.xi, ...other.subs] : []
       tl.goals.forEach((g, i) => {
         if (g.period === 11) return // shootout kicks are not goals
-        const p = all.find((x) => x.id === g.player)
+        const own = g.type === 3
+        const p = (own ? opponents : all).find((x) => x.id === g.player)
         rows.push({
           key: `${code ?? 'x'}-${i}`,
           minute: g.minute,
           name: p?.name || g.player,
           code,
-          own: g.type === 3,
+          own,
           pen: g.type === 1,
         })
       })
     }
-    collect(lu.home, m.home?.code ?? null)
-    collect(lu.away, m.away?.code ?? null)
+    collect(lu.home, lu.away, m.home?.code ?? null)
+    collect(lu.away, lu.home, m.away?.code ?? null)
     return rows.sort((a, b) => (parseInt(a.minute || '0', 10) || 0) - (parseInt(b.minute || '0', 10) || 0))
   }, [lu, m])
 
