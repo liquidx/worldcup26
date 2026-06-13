@@ -3106,7 +3106,20 @@
      "period": 3
     }
    ],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "308386",
+     "on": "394456",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "430594",
+     "on": "335656",
+     "minute": "",
+     "period": 4
+    }
+   ]
   },
   "away": {
    "tactics": "4-2-3-1",
@@ -3411,8 +3424,8 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "52'",
+  "period": 5,
   "final": false
  },
  "400021458": {
