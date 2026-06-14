@@ -198,7 +198,7 @@
   }
  ],
  "cards": {
-  "yellow": 29,
+  "yellow": 31,
   "red": 3,
   "players": [
    {
@@ -286,6 +286,13 @@
     "r": 0
    },
    {
+    "id": "486317",
+    "name": "Guela DOUE",
+    "code": "CIV",
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "419473",
     "name": "JASSEM GABER",
     "code": "QAT",
@@ -328,16 +335,9 @@
     "r": 0
    },
    {
-    "id": "492315",
-    "name": "LEE Gihyuk",
-    "code": "KOR",
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "480322",
-    "name": "Luc DE FOUGEROLLES",
-    "code": "CAN",
+    "id": "371609",
+    "name": "KESSIE",
+    "code": "CIV",
     "y": 1,
     "r": 0
    }
