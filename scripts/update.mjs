@@ -1298,7 +1298,7 @@ async function main() {
     const champs = new Map()
     const RUNS = 10000
     for (let i = 0; i < RUNS; i++) {
-      const run = runTournament(simModel, matches, venues, teams, 'continue')
+      const run = runTournament(simModel, matches, venues, teams, () => true)
       champs.set(run.champion, (champs.get(run.champion) ?? 0) + 1)
     }
     titleOdds = [...champs.entries()]

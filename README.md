@@ -137,6 +137,56 @@ The app is a static site with hash routing and relative asset paths. For GitHub 
 2. `deploy.yml` builds and publishes on every push to `main` (documentation-only and pipeline-only changes are skipped).
 3. `update-data.yml` refreshes the data on the match-driven schedule above and redeploys. Its cron table is generated from the fixed match calendar; run `bun run gencron` if a kick-off time ever changes.
 
+### 🐳 Docker (self-hosting)
+
+A small image (nginx serving the built PWA) published to **`ghcr.io/26worldcup/26worldcup`**. Where it reads match data is set by the `DATA_SOURCE` env var; the app is served at **http://localhost:8080** either way.
+
+| `DATA_SOURCE` | `/data/*.json` from | Freshness | Network |
+| --- | --- | --- | --- |
+| `remote` *(default)* | reverse-proxied from the live site | always current, incl. live scores | outbound to `REMOTE_DATA_HOST` |
+| `self` | an updater sidecar that runs the data pipeline | near-live (own `UPDATE_INTERVAL`) | outbound to FIFA/Wikipedia/Open-Meteo |
+
+#### 1. `remote` mode (default): always-fresh data proxied from the live site
+
+**1.1 Use the prebuilt image** (no clone):
+
+```bash
+docker run -d -p 8080:80 ghcr.io/26worldcup/26worldcup:latest
+```
+
+**1.2 Build your own** (local changes, or before an image is published):
+
+```bash
+git clone https://github.com/26worldcup/26worldcup.github.io.git
+cd 26worldcup.github.io
+docker build -t ghcr.io/26worldcup/26worldcup:latest .          # build the local image
+docker run -d -p 8080:80 ghcr.io/26worldcup/26worldcup:latest   # same tag → runs your build, no pull
+```
+
+#### 2. `self` mode: self-updating, no dependency on the live site
+
+Two containers share a volume: the web server (`DATA_SOURCE=self`) and an updater that re-runs the data pipeline every `UPDATE_INTERVAL` seconds (default `900` = 15 min). The volume is seeded from the image's baked snapshot, so the site works immediately and is replaced by fresh data after the first run.
+
+**2.1 Use the prebuilt images** (no clone), run the pair directly:
+
+```bash
+docker volume create wc-data
+docker run -d -p 8080:80 -e DATA_SOURCE=self --restart unless-stopped \
+  -v wc-data:/usr/share/nginx/html/data \
+  ghcr.io/26worldcup/26worldcup:latest
+docker run -d -e UPDATE_INTERVAL=900 --restart unless-stopped \
+  -v wc-data:/app/public/data \
+  ghcr.io/26worldcup/26worldcup-updater:latest
+```
+
+**2.2 Build your own** (Compose builds both the web and updater images):
+
+```bash
+git clone https://github.com/26worldcup/26worldcup.github.io.git
+cd 26worldcup.github.io
+docker compose -f docker-compose.yml -f docker-compose.self.yml up -d --build
+```
+
 ### ⚙️ Tech
 
 React 19 · TypeScript · Vite · no backend, no runtime dependencies beyond React + Router. SVG throughout: the pitch with line-ups, the projected North America map, the bracket, the logo.

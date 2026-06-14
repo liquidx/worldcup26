@@ -31,7 +31,7 @@ export const STAGE_ORDER: Stage[] = ['group', 'r32', 'r16', 'qf', 'sf', 'third',
 
 // FIFA match-centre deep link: /{lang}/match-centre/match/{idCompetition}/{idSeason}/{idStage}/{idMatch}.
 // idCompetition (17 = men's World Cup) and idSeason (285023 = 2026) are fixed for the tournament; idStage is
-// the numeric FIFA stage id — the inverse of the STAGE_KEY map in scripts/update.mjs.
+// the numeric FIFA stage id, the inverse of the STAGE_KEY map in scripts/update.mjs.
 const FIFA_STAGE_ID: Record<Stage, string> = {
   group: '289273',
   r32: '289287',
