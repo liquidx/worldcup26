@@ -243,8 +243,8 @@
    "group": "C",
    "date": "2026-06-14T01:00:00Z",
    "venueId": "400248623",
-   "status": "live",
-   "time": "85'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "HAI",
     "score": 0,
@@ -257,7 +257,7 @@
    },
    "phA": "C3",
    "phB": "C4",
-   "winner": null,
+   "winner": "SCO",
    "attendance": 64146,
    "officials": [
     {

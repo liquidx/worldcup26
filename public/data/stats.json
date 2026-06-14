@@ -107,7 +107,7 @@
   }
  ],
  "cards": {
-  "yellow": 22,
+  "yellow": 24,
   "red": 3,
   "players": [
    {
@@ -181,6 +181,13 @@
     "r": 0
    },
    {
+    "id": "520217",
+    "name": "Findlay CURTIS",
+    "code": "SCO",
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "419473",
     "name": "JASSEM GABER",
     "code": "QAT",
@@ -216,6 +223,13 @@
     "r": 0
    },
    {
+    "id": "484051",
+    "name": "Kenny McLEAN",
+    "code": "SCO",
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "492315",
     "name": "LEE Gihyuk",
     "code": "KOR",
@@ -235,24 +249,10 @@
     "code": "QAT",
     "y": 1,
     "r": 0
-   },
-   {
-    "id": "369761",
-    "name": "Miguel ALMIRON",
-    "code": "PAR",
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "403616",
-    "name": "MOKOENA",
-    "code": "RSA",
-    "y": 1,
-    "r": 0
    }
   ]
  },
- "attAvg": 64655,
+ "attAvg": 64583,
  "biggestWin": {
   "diff": 3,
   "id": "400021458",
