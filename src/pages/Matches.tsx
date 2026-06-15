@@ -170,14 +170,19 @@ export default function Matches() {
     return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0]))
   }, [filtered, venues, settings])
 
-  // jump targets: opener / now (≈ yesterday, so fresh scores sit on top) /
-  // first knockout day / the final
+  // jump targets: opener / now / first knockout day / the final. "now" is the
+  // last finished match in on-page (display) order, so the freshest result sits
+  // on top, right before the first live match. match numbers are not in time
+  // order, so we scan the rendered order (days asc, then sortMatches) and not
+  // ids. before kickoff fall back to the first upcoming day, then the opener.
   const jumps = useMemo(() => {
     const todayK = dayKey(new Date().toISOString(), displayTz(settings, null))
-    const idx = days.findIndex(([k]) => k >= todayK)
+    let nowMatchId: string | undefined
+    for (const [, ms] of days) for (const m of ms) if (m.status === 'finished') nowMatchId = m.id
     return {
       opener: days[0]?.[0],
-      now: idx === -1 ? days[days.length - 1]?.[0] : days[Math.max(0, idx - 1)]?.[0],
+      nowMatchId,
+      nowFallbackDay: days.find(([k]) => k >= todayK)?.[0] ?? days[0]?.[0],
       ko: days.find(([, ms]) => ms.some((m) => m.stage !== 'group'))?.[0],
       final: days.find(([, ms]) => ms.some((m) => m.stage === 'final'))?.[0] ?? days[days.length - 1]?.[0],
     }
@@ -187,13 +192,34 @@ export default function Matches() {
     if (k) document.getElementById(`mxp-day-${k}`)?.scrollIntoView({ block: 'start', behavior })
   }
 
+  // scroll a single match card clear of the sticky header + filter block + the
+  // sticky day header that pins above it (scrollIntoView can't see those)
+  const scrollToMatch = (id: string | undefined, behavior: ScrollBehavior = 'smooth') => {
+    if (!id) return
+    const el = document.getElementById(`mxp-match-${id}`)
+    if (!el) return
+    const head = el.closest('.mxp-day')?.querySelector<HTMLElement>('.day-head')
+    const hdr =
+      Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--hdr-h')) || 58
+    const offset = hdr + (stickyRef.current?.offsetHeight ?? 0) + (head?.offsetHeight ?? 0) + 4
+    window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - offset, behavior })
+  }
+
+  const goNow = (behavior: ScrollBehavior = 'smooth') => {
+    if (jumps.nowMatchId) scrollToMatch(jumps.nowMatchId, behavior)
+    else scrollToDay(jumps.nowFallbackDay, behavior)
+  }
+
   // default position: "now" (instant, one-shot once the list is rendered)
   const jumpedRef = useRef(false)
   // biome-ignore lint/correctness/useExhaustiveDependencies: one-shot initial scroll keyed on the rendered day list only
   useEffect(() => {
     if (jumpedRef.current || days.length === 0) return
     jumpedRef.current = true
-    if (jumps.now && jumps.now !== days[0]?.[0]) requestAnimationFrame(() => scrollToDay(jumps.now, 'auto'))
+    const firstId = days[0]?.[1]?.[0]?.id
+    // skip if "now" is already the very first card / day at the top
+    const atTop = jumps.nowMatchId ? jumps.nowMatchId === firstId : jumps.nowFallbackDay === days[0]?.[0]
+    if (!atTop) requestAnimationFrame(() => goNow('auto'))
   }, [days])
 
   // everything above the list is sticky; expose its height so day headers can
@@ -373,7 +399,7 @@ export default function Matches() {
             <button type="button" className="mxp-jump-btn" onClick={() => scrollToDay(jumps.opener)}>
               {t('jumpOpener')}
             </button>
-            <button type="button" className="mxp-jump-btn" onClick={() => scrollToDay(jumps.now)}>
+            <button type="button" className="mxp-jump-btn" onClick={() => goNow()}>
               {t('jumpNow')}
             </button>
             {jumps.ko && (
@@ -413,7 +439,7 @@ export default function Matches() {
                 </div>
                 <div className="cards-grid three">
                   {ms.map((m) => (
-                    <MatchCard key={m.id} match={m} hideDate showWeather />
+                    <MatchCard key={m.id} match={m} hideDate showWeather domId={`mxp-match-${m.id}`} />
                   ))}
                 </div>
               </section>

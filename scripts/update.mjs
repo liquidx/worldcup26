@@ -1320,6 +1320,8 @@ async function main() {
       if (m.home.score > m.away.score && pr.h < pr.a) p = pr.h
       else if (m.away.score > m.home.score && pr.a < pr.h) p = pr.a
       if (p == null) continue
+      // and the winner must have been a clear underdog: under 20% pre-match
+      if (p >= 20) continue
       if (!upset || p < upset.p)
         upset = { p, id: m.id, h: m.home.code, a: m.away.code, hs: m.home.score, as: m.away.score }
     }

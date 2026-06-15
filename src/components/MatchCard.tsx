@@ -13,6 +13,8 @@ interface MatchCardProps {
   /** hide the date inside the when-block (e.g. when shown under a day header) */
   hideDate?: boolean
   showWeather?: boolean
+  /** DOM id on the card root, used as a scroll target by the matches list */
+  domId?: string
 }
 
 function SideRow({
@@ -61,7 +63,7 @@ function SideRow({
 /** memoized: match objects are stable references from data.matches, so filter
  * interactions on list pages skip re-rendering the ~100 unchanged cards
  * (i18n/settings changes still propagate via context) */
-function MatchCard({ match: m, hideDate = false, showWeather = false }: MatchCardProps) {
+function MatchCard({ match: m, hideDate = false, showWeather = false, domId }: MatchCardProps) {
   const { t, pick, locale } = useI18n()
   const { settings } = useSettings()
   const { venues, weather } = useAppData()
@@ -70,7 +72,7 @@ function MatchCard({ match: m, hideDate = false, showWeather = false }: MatchCar
   const w = showWeather ? weather[m.id] : undefined
 
   return (
-    <Link to={`/match/${m.id}`} className={`match-card${m.status === 'live' ? ' live' : ''}`}>
+    <Link id={domId} to={`/match/${m.id}`} className={`match-card${m.status === 'live' ? ' live' : ''}`}>
       <div className="mc-top">
         <span>{t('matchN', { n: m.n })}</span>
         <span className="chip">
