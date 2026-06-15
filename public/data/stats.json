@@ -282,7 +282,7 @@
   }
  ],
  "cards": {
-  "yellow": 37,
+  "yellow": 38,
   "red": 3,
   "players": [
    {
@@ -314,6 +314,14 @@
     "name": "Aaron HICKEY",
     "code": "SCO",
     "no": 2,
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "430477",
+    "name": "AHMED FATOUH",
+    "code": "EGY",
+    "no": 13,
     "y": 1,
     "r": 0
    },
@@ -434,14 +442,6 @@
     "name": "Juan Jose CACERES",
     "code": "PAR",
     "no": 4,
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "369749",
-    "name": "Junior ALONSO",
-    "code": "PAR",
-    "no": 6,
     "y": 1,
     "r": 0
    }

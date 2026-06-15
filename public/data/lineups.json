@@ -8928,11 +8928,17 @@
      "minute": "13'",
      "card": 1,
      "period": 3
+    },
+    {
+     "player": "430477",
+     "minute": "34'",
+     "card": 1,
+     "period": 3
     }
    ],
    "substitutions": []
   },
-  "matchTime": "31'",
+  "matchTime": "45'",
   "period": 3,
   "final": false
  },
