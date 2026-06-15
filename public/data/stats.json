@@ -198,7 +198,7 @@
   }
  ],
  "cards": {
-  "yellow": 31,
+  "yellow": 32,
   "red": 3,
   "players": [
    {
@@ -293,6 +293,13 @@
     "r": 0
    },
    {
+    "id": "419003",
+    "name": "Jackson POROZO",
+    "code": "ECU",
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "419473",
     "name": "JASSEM GABER",
     "code": "QAT",
@@ -331,13 +338,6 @@
     "id": "484051",
     "name": "Kenny McLEAN",
     "code": "SCO",
-    "y": 1,
-    "r": 0
-   },
-   {
-    "id": "371609",
-    "name": "KESSIE",
-    "code": "CIV",
     "y": 1,
     "r": 0
    }
