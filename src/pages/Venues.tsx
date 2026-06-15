@@ -529,7 +529,7 @@ function VenueCard({ venue: v, matches }: { venue: Venue; matches: Match[] }) {
           <MapLinks
             query={`${v.realName}, ${v.city}`}
             size={17}
-            wiki={v.wiki ? { url: v.wiki.url, title: t('wikipedia') } : undefined}
+            wiki={v.wiki ? { url: v.wiki.url, title: t('englishWikipedia') } : undefined}
           />
         </div>
 

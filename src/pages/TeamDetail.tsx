@@ -5,7 +5,14 @@ import type { PosBucket, SquadPlayer, Team } from '../types'
 import { useI18n } from '../i18n'
 import { useSettings } from '../settings/SettingsContext'
 import { useAppData, useData } from '../data/DataContext'
-import { fifaSquadUrl, fifaToIso2, qualState, sortMatches } from '../utils/helpers'
+import {
+  CONF_REGION_KEY,
+  fifaSquadUrl,
+  fifaToIso2,
+  qualState,
+  sortMatches,
+  TEAM_CONFEDERATION,
+} from '../utils/helpers'
 import { FifaMark, HomeMark, WikipediaMark } from '../components/BrandMarks'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
@@ -39,8 +46,8 @@ function WikiIcon({ url }: { url: string }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      title={t('wikipedia')}
-      aria-label={t('wikipedia')}
+      title={t('englishWikipedia')}
+      aria-label={t('englishWikipedia')}
     >
       <WikipediaMark size={15} />
     </a>
@@ -236,6 +243,11 @@ export default function TeamDetail() {
                 {t('fifaRanking')} <b className="tnum">#{team.ranking}</b>
               </span>
             )}
+            {TEAM_CONFEDERATION[code] && (
+              <span className="chip">
+                {TEAM_CONFEDERATION[code]} ({t(CONF_REGION_KEY[TEAM_CONFEDERATION[code]])})
+              </span>
+            )}
           </div>
         </div>
         <button
@@ -333,14 +345,14 @@ export default function TeamDetail() {
         </section>
 
         <section className="card card-pad td-group">
-          <h3>
-            <Link to="/groups">{t('groupX', { x: team.group })}</Link>
-          </h3>
           <table className="td-table">
             <thead>
               <tr>
-                <th />
-                <th className="l" />
+                <th className="l td-group-h" colSpan={2}>
+                  <h3>
+                    <Link to={`/groups?g=${team.group}`}>{t('groupX', { x: team.group })}</Link>
+                  </h3>
+                </th>
                 <th>{t('colP')}</th>
                 <th className="xw">{t('colW')}</th>
                 <th className="xw">{t('colD')}</th>

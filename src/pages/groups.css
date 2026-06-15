@@ -21,6 +21,21 @@
   /* deep-link anchors (#group-A..L) land below the sticky header */
   scroll-margin-top: calc(var(--hdr-h, 58px) + 12px);
 }
+/* deep-linked group card flashes once to draw the eye */
+.gp-card.flash {
+  animation: gp-card-flash 1.8s ease-out;
+}
+@keyframes gp-card-flash {
+  0%,
+  20% {
+    border-color: var(--accent-2);
+    box-shadow: 0 0 0 2px var(--accent-2);
+  }
+  100% {
+    border-color: var(--border);
+    box-shadow: var(--shadow);
+  }
+}
 
 .gp-head {
   display: flex;

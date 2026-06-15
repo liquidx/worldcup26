@@ -130,6 +130,30 @@ export function fifaSquadUrl(team: Team, lang: Lang): string {
   return `https://www.fifa.com/${sl}/tournaments/mens/worldcup/canadamexicousa2026/teams/${slug}/squad`
 }
 
+export type Confederation = 'UEFA' | 'CONMEBOL' | 'CONCACAF' | 'CAF' | 'AFC' | 'OFC'
+// confederation by FIFA tri-code for the 48 WC2026 teams (static)
+export const TEAM_CONFEDERATION: Record<string, Confederation> = {
+  AUT: 'UEFA', BEL: 'UEFA', BIH: 'UEFA', CRO: 'UEFA', CZE: 'UEFA', ENG: 'UEFA', ESP: 'UEFA',
+  FRA: 'UEFA', GER: 'UEFA', NED: 'UEFA', NOR: 'UEFA', POR: 'UEFA', SCO: 'UEFA', SUI: 'UEFA',
+  SWE: 'UEFA', TUR: 'UEFA',
+  ARG: 'CONMEBOL', BRA: 'CONMEBOL', COL: 'CONMEBOL', ECU: 'CONMEBOL', PAR: 'CONMEBOL', URU: 'CONMEBOL',
+  CAN: 'CONCACAF', CUW: 'CONCACAF', HAI: 'CONCACAF', MEX: 'CONCACAF', PAN: 'CONCACAF', USA: 'CONCACAF',
+  ALG: 'CAF', CIV: 'CAF', COD: 'CAF', CPV: 'CAF', EGY: 'CAF', GHA: 'CAF', MAR: 'CAF', RSA: 'CAF',
+  SEN: 'CAF', TUN: 'CAF',
+  AUS: 'AFC', IRN: 'AFC', IRQ: 'AFC', JOR: 'AFC', JPN: 'AFC', KOR: 'AFC', KSA: 'AFC', QAT: 'AFC',
+  UZB: 'AFC',
+  NZL: 'OFC',
+}
+// i18n key holding each confederation's region label (e.g. UEFA -> "Europe")
+export const CONF_REGION_KEY: Record<Confederation, string> = {
+  UEFA: 'confUEFA',
+  CONMEBOL: 'confCONMEBOL',
+  CONCACAF: 'confCONCACAF',
+  CAF: 'confCAF',
+  AFC: 'confAFC',
+  OFC: 'confOFC',
+}
+
 // flags are downloaded into public/flags/ by `npm run update`: flat, official
 // aspect ratio, 120px tall (flagcdn h120); the <Flag> box letterboxes them
 const FLAG_BASE = `${import.meta.env.BASE_URL}flags/`

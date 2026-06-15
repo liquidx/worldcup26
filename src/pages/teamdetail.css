@@ -169,7 +169,15 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 10px;
+  margin: 0;
+}
+/* group heading sits in the first (merged) header cell, not its own row;
+   override the small/uppercase/muted column-header styling */
+.td-table th.td-group-h {
+  vertical-align: bottom;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--text);
 }
 .td-group h3 a:hover {
   color: var(--accent-2);
@@ -187,6 +195,7 @@
   color: var(--text-3);
   text-align: center;
   white-space: nowrap;
+  vertical-align: bottom;
 }
 .td-table td {
   padding: 7px 4px 7px 6px;

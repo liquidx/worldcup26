@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import type { Match, StandingRow } from '../types'
 import { useI18n } from '../i18n'
 import { useAppData } from '../data/DataContext'
@@ -73,6 +74,22 @@ export default function Groups() {
   const toggle = (g: string) => setOpen((o) => ({ ...o, [g]: !o[g] }))
   const scrollToGroup = (g: string) =>
     document.getElementById(`group-${g}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+
+  // deep link from a match/team page: #/groups?g=F scrolls to group F's card and
+  // flashes it once the standings have loaded
+  const [searchParams] = useSearchParams()
+  const groupParam = searchParams.get('g')
+  useEffect(() => {
+    if (!groupParam || !letters.length) return
+    const el = document.getElementById(`group-${groupParam}`)
+    if (!el) return
+    const id = requestAnimationFrame(() => {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      el.classList.add('flash')
+      setTimeout(() => el.classList.remove('flash'), 1800)
+    })
+    return () => cancelAnimationFrame(id)
+  }, [groupParam, letters])
 
   return (
     <div>

@@ -18,6 +18,7 @@ import {
   wmoEmoji,
   wmoKey,
 } from '../utils/helpers'
+import { WikipediaMark } from '../components/BrandMarks'
 import Flag from '../components/Flag'
 import Icon from '../components/Icon'
 import MapLinks from '../components/MapLinks'
@@ -44,6 +45,18 @@ const ROOF_KEY: Record<string, string> = {
   canopy: 'roofCanopy',
   retractable: 'roofRetractable',
   fixed: 'roofFixed',
+}
+
+// best-effort English Wikipedia article URL for a referee. FIFA names come as
+// "First SURNAME"; title-case each word so the constructed path matches the
+// usual article title (Wikipedia redirects/search cover the rest).
+function refWikiUrl(name: string): string {
+  const slug = name
+    .trim()
+    .split(/\s+/)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+    .join('_')
+  return `https://en.wikipedia.org/wiki/${encodeURIComponent(slug)}`
 }
 
 function HeroSide({ side, ph }: { side: MatchSide | null; ph: string | null }) {
@@ -227,9 +240,15 @@ export default function MatchDetail() {
       {/* ===== header card ===== */}
       <div className="card md-hero">
         <div className="md-hero-top">
-          <span className={m.stage === 'final' ? 'chip chip-accent' : 'chip'}>
-            {m.stage === 'group' && m.group ? t('groupX', { x: m.group }) : t(STAGE_LABEL_KEY[m.stage])}
-          </span>
+          {m.stage === 'group' && m.group ? (
+            <Link className="chip md-group-chip" to={`/groups?g=${m.group}`}>
+              {t('groupX', { x: m.group })}
+            </Link>
+          ) : (
+            <span className={m.stage === 'final' ? 'chip chip-accent' : 'chip'}>
+              {t(STAGE_LABEL_KEY[m.stage])}
+            </span>
+          )}
           <span>{t('matchN', { n: m.n })}</span>
           {m.status === 'live' && <span className="chip chip-live">{t('statusLive')}</span>}
           {m.status === 'finished' && <span className="chip">{t('statusFinished')}</span>}
@@ -432,7 +451,7 @@ export default function MatchDetail() {
               {venue.realName}
               <MapLinks
                 query={`${venue.realName}, ${venue.city}`}
-                wiki={venue.wiki ? { url: venue.wiki.url, title: t('wikipedia') } : undefined}
+                wiki={venue.wiki ? { url: venue.wiki.url, title: t('englishWikipedia') } : undefined}
               />
             </div>
             {fifaName && fifaName !== venue.realName && <div className="md-venue-sub">{fifaName}</div>}
@@ -529,13 +548,37 @@ export default function MatchDetail() {
             <div className="md-rows">
               {m.officials.map((o) => {
                 const iso = fifaToIso2(o.country)
+                const country = (
+                  <>
+                    {iso && <Flag iso2={iso} size={18} />}
+                    <span className="muted small">{countryName(iso, o.country ?? '')}</span>
+                  </>
+                )
                 return (
                   <div className="md-row" key={o.id}>
                     <span className="lbl">{officialLabel(o)}</span>
                     <span className="val">
-                      {pick(o.name)}
-                      {iso && <Flag iso2={iso} size={18} />}
-                      <span className="muted small">{countryName(iso, o.country ?? '')}</span>
+                      {o.role === 'referee' ? (
+                        <>
+                          {country}
+                          {pick(o.name)}
+                          <a
+                            className="md-wiki-icon"
+                            href={refWikiUrl(o.name.en ?? pick(o.name))}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title={t('englishWikipedia')}
+                            aria-label={t('englishWikipedia')}
+                          >
+                            <WikipediaMark size={15} />
+                          </a>
+                        </>
+                      ) : (
+                        <>
+                          {pick(o.name)}
+                          {country}
+                        </>
+                      )}
                     </span>
                   </div>
                 )

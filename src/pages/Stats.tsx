@@ -95,7 +95,10 @@ export default function Stats() {
           <Link to={`/match/${stats.upset.id}`} className="card sx-stat sx-stat-link">
             <div className="sx-num tnum sx-num-sm">
               <Flag team={teams[stats.upset.h]} size={22} /> {stats.upset.hs}–{stats.upset.as}{' '}
-              <Flag team={teams[stats.upset.a]} size={22} /> ({stats.upset.p}%)
+              <Flag team={teams[stats.upset.a]} size={22} />{' '}
+              <span title={t('upsetFavOdds')}>
+                (<s>{stats.upset.p}%</s>)
+              </span>
             </div>
             <div className="sx-lbl">{t('statUpset')}</div>
           </Link>

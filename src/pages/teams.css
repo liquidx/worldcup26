@@ -46,16 +46,47 @@
 .tm-meta {
   display: flex;
   align-items: center;
-  gap: 7px;
+  flex-wrap: wrap;
+  gap: 4px 7px;
   margin-top: 2px;
   min-width: 0;
 }
 .tm-nick {
-  flex: 0 1 auto;
-  min-width: 0;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--text-2);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* group / confederation / ranking selector */
+.tm-modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.tm-mode {
+  flex: none;
+  padding: 6px 14px;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 650;
+  color: var(--text-2);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.tm-mode:hover {
+  color: var(--accent-2);
+  border-color: var(--accent-2);
+}
+.tm-mode.on {
+  color: var(--accent-2);
+  border-color: var(--accent-2);
+  background: color-mix(in srgb, var(--accent-2) 12%, var(--bg-elev));
 }
 
 .tm-star {

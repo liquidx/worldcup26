@@ -1455,23 +1455,51 @@ async function main() {
       .map(([c, n]) => ({ c, p: +((n / RUNS) * 100).toFixed(1) }))
     log(`title odds: ${titleOdds.map((o) => `${o.c} ${o.p}%`).join(', ')}`)
 
-    // biggest upset: the finished result our frozen pre-match probabilities
-    // found least likely (group stage only — h/d/a are 90' probabilities)
+    // biggest upset, measured in bits of surprise: log2(pFav / pActual), the
+    // favourite's expected outcome over the one that happened. Group matches use
+    // the 90' h/d/a — a heavy favourite held to a draw counts, a loss counts more;
+    // knockout matches (once they carry probs) use total advancement probability
+    // (`ah` already folds in extra time + penalties). p stores the favourite's
+    // pre-match win/advance probability for display.
+    const MIN_UPSET_BITS = 1 // hide trivial results (favourite roughly got its due)
+    const floorPct = (x) => Math.max(x, 0.5) // integer probs can round down to 0
     let upset = null
     for (const m of matches) {
-      if (m.status !== 'finished' || !m.home || !m.away || m.stage !== 'group') continue
+      if (m.status !== 'finished' || !m.home || !m.away) continue
       const pr = probs[m.id]
       if (!pr) continue
-      // an upset is strictly the LESS-favoured team winning: a favourite's win
-      // is never one (whatever its percentage), and draws don't count either
-      let p = null
-      if (m.home.score > m.away.score && pr.h < pr.a) p = pr.h
-      else if (m.away.score > m.home.score && pr.a < pr.h) p = pr.a
-      if (p == null) continue
-      // and the winner must have been a clear underdog: under 20% pre-match
-      if (p >= 20) continue
-      if (!upset || p < upset.p)
-        upset = { p, id: m.id, h: m.home.code, a: m.away.code, hs: m.home.score, as: m.away.score }
+      let bits = 0
+      let favPct = 0
+      if (pr.ah != null) {
+        // knockout: was the team that advanced the underdog?
+        const qHome = pr.ah
+        const qAway = 100 - pr.ah
+        const favHome = qHome >= qAway
+        const favCode = favHome ? m.home.code : m.away.code
+        if (m.winner && m.winner !== favCode) {
+          favPct = Math.max(qHome, qAway)
+          bits = Math.log2(floorPct(favPct) / floorPct(favHome ? qAway : qHome))
+        }
+      } else {
+        // group / 90': the favourite failed to win (draw or defeat)
+        const favHome = pr.h >= pr.a
+        favPct = Math.max(pr.h, pr.a)
+        const favWon = favHome ? m.home.score > m.away.score : m.away.score > m.home.score
+        if (!favWon) {
+          const actual = m.home.score > m.away.score ? pr.h : m.away.score > m.home.score ? pr.a : pr.d
+          bits = Math.log2(floorPct(favPct) / floorPct(actual))
+        }
+      }
+      if (bits >= MIN_UPSET_BITS && (!upset || bits > upset.bits))
+        upset = {
+          bits: +bits.toFixed(2),
+          p: favPct,
+          id: m.id,
+          h: m.home.code,
+          a: m.away.code,
+          hs: m.home.score,
+          as: m.away.score,
+        }
     }
     stats.upset = upset
   } catch (e) {
