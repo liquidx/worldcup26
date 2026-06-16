@@ -57,6 +57,14 @@
    "ownGoals": 0
   },
   {
+   "id": "484860",
+   "name": "BARCOLA",
+   "code": "FRA",
+   "no": 12,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "385067",
    "name": "BOUALEM KHOUKHI",
    "code": "QAT",
@@ -309,14 +317,6 @@
    "name": "Viktor GYOKERES",
    "code": "SWE",
    "no": 17,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "405742",
-   "name": "VINI JR.",
-   "code": "BRA",
-   "no": 7,
    "goals": 1,
    "ownGoals": 0
   }
