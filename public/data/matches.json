@@ -952,7 +952,7 @@
    "date": "2026-06-16T19:00:00Z",
    "venueId": "400257536",
    "status": "live",
-   "time": "50'",
+   "time": "64'",
    "home": {
     "code": "FRA",
     "score": 0,
@@ -966,7 +966,7 @@
    "phA": "I1",
    "phB": "I2",
    "winner": null,
-   "attendance": null,
+   "attendance": 80545,
    "officials": [
     {
      "id": "283448",
