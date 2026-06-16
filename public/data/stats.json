@@ -9,6 +9,14 @@
    "ownGoals": 0
   },
   {
+   "id": "419652",
+   "name": "HAALAND",
+   "code": "NOR",
+   "no": 9,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "411367",
    "name": "HAVERTZ",
    "code": "GER",
@@ -132,6 +140,14 @@
    "id": "448586",
    "name": "H G OH",
    "code": "KOR",
+   "no": 18,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "395186",
+   "name": "Hussain",
+   "code": "IRQ",
    "no": 18,
    "goals": 1,
    "ownGoals": 0
@@ -301,22 +317,6 @@
    "name": "REYNA",
    "code": "USA",
    "no": 7,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "448598",
-   "name": "SAIBARI",
-   "code": "MAR",
-   "no": 11,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "430667",
-   "name": "SCHLOTTERBECK",
-   "code": "GER",
-   "no": 15,
    "goals": 1,
    "ownGoals": 0
   }

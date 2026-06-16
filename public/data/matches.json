@@ -1011,15 +1011,15 @@
    "date": "2026-06-16T22:00:00Z",
    "venueId": "400248623",
    "status": "live",
-   "time": "15'",
+   "time": null,
    "home": {
     "code": "IRQ",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "NOR",
-    "score": 0,
+    "score": 2,
     "pen": null
    },
    "phA": "I3",
