@@ -1011,7 +1011,7 @@
    "date": "2026-06-16T22:00:00Z",
    "venueId": "400248623",
    "status": "live",
-   "time": "69'",
+   "time": "83'",
    "home": {
     "code": "IRQ",
     "score": 1,
@@ -1019,13 +1019,13 @@
    },
    "away": {
     "code": "NOR",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "phA": "I3",
    "phB": "I4",
    "winner": null,
-   "attendance": null,
+   "attendance": 63106,
    "officials": [
     {
      "id": "408417",

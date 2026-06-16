@@ -201,6 +201,14 @@
    "ownGoals": 0
   },
   {
+   "id": "419672",
+   "name": "Leo OSTIGARD",
+   "code": "NOR",
+   "no": 4,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "494989",
    "name": "Livano COMENENCIA",
    "code": "CUW",
@@ -309,14 +317,6 @@
    "name": "RAÚL",
    "code": "MEX",
    "no": 9,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "419068",
-   "name": "REYNA",
-   "code": "USA",
-   "no": 7,
    "goals": 1,
    "ownGoals": 0
   }
