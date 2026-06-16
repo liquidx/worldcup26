@@ -10994,7 +10994,7 @@
   ]
  },
  "TUN": {
-  "coach": "Sabri Lamouchi was fired after the first match on June 15 and replaced by  Hervé Renard the next day.",
+  "coach": "Sabri Lamouchi  /  Hervé Renard",
   "coachWiki": "https://en.wikipedia.org/wiki/Sabri_Lamouchi",
   "wiki": {
    "title": "Tunisia national football team",
@@ -15695,7 +15695,7 @@
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9",
     "wcApps": 1,
-    "wcGoals": 1,
+    "wcGoals": 2,
     "wcYellow": 0,
     "wcRed": 0
    },
@@ -17201,7 +17201,7 @@
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Mbaye",
     "wcApps": 1,
-    "wcGoals": 0,
+    "wcGoals": 1,
     "wcYellow": 0,
     "wcRed": 0
    }
@@ -20868,6 +20868,24 @@
     "wcRed": 0
    },
    {
+    "id": "ruslanbek-jiyanov",
+    "no": 10,
+    "pos": "MF",
+    "name": "Ruslanbek Jiyanov",
+    "dob": "2001-06-05",
+    "caps": 5,
+    "goals": 0,
+    "club": "Navbahor Namangan",
+    "clubNat": "UZB",
+    "clubWiki": "https://en.wikipedia.org/wiki/PFC_Navbahor_Namangan",
+    "captain": false,
+    "wiki": "https://en.wikipedia.org/wiki/Ruslanbek_Jiyanov",
+    "wcApps": 0,
+    "wcGoals": 0,
+    "wcYellow": 0,
+    "wcRed": 0
+   },
+   {
     "id": "oston-urunov",
     "no": 11,
     "pos": "MF",
@@ -20952,24 +20970,6 @@
     "clubWiki": "https://en.wikipedia.org/wiki/FC_Bukhara",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Sherzod_Esanov",
-    "wcApps": 0,
-    "wcGoals": 0,
-    "wcYellow": 0,
-    "wcRed": 0
-   },
-   {
-    "id": "ruslanbek-jiyanov",
-    "no": 10,
-    "pos": "FW",
-    "name": "Ruslanbek Jiyanov",
-    "dob": "2001-06-05",
-    "caps": 5,
-    "goals": 0,
-    "club": "Navbahor Namangan",
-    "clubNat": "UZB",
-    "clubWiki": "https://en.wikipedia.org/wiki/PFC_Navbahor_Namangan",
-    "captain": false,
-    "wiki": "https://en.wikipedia.org/wiki/Ruslanbek_Jiyanov",
     "wcApps": 0,
     "wcGoals": 0,
     "wcYellow": 0,

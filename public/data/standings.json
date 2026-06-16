@@ -503,27 +503,15 @@
   "I": [
    {
     "code": "FRA",
-    "p": 0,
-    "w": 0,
+    "p": 1,
+    "w": 1,
     "d": 0,
     "l": 0,
-    "gf": 0,
-    "ga": 0,
-    "gd": 0,
-    "pts": 0,
+    "gf": 3,
+    "ga": 1,
+    "gd": 2,
+    "pts": 3,
     "rank": 1
-   },
-   {
-    "code": "SEN",
-    "p": 0,
-    "w": 0,
-    "d": 0,
-    "l": 0,
-    "gf": 0,
-    "ga": 0,
-    "gd": 0,
-    "pts": 0,
-    "rank": 2
    },
    {
     "code": "NOR",
@@ -535,7 +523,7 @@
     "ga": 0,
     "gd": 0,
     "pts": 0,
-    "rank": 3
+    "rank": 2
    },
    {
     "code": "IRQ",
@@ -546,6 +534,18 @@
     "gf": 0,
     "ga": 0,
     "gd": 0,
+    "pts": 0,
+    "rank": 3
+   },
+   {
+    "code": "SEN",
+    "p": 1,
+    "w": 0,
+    "d": 0,
+    "l": 1,
+    "gf": 1,
+    "ga": 3,
+    "gd": -2,
     "pts": 0,
     "rank": 4
    }
@@ -693,8 +693,8 @@
    "qualifies": null
   },
   {
-   "group": "I",
-   "code": "NOR",
+   "group": "L",
+   "code": "PAN",
    "p": 0,
    "w": 0,
    "d": 0,
@@ -708,8 +708,8 @@
    "qualifies": null
   },
   {
-   "group": "L",
-   "code": "PAN",
+   "group": "K",
+   "code": "COD",
    "p": 0,
    "w": 0,
    "d": 0,
@@ -723,8 +723,8 @@
    "qualifies": null
   },
   {
-   "group": "K",
-   "code": "COD",
+   "group": "I",
+   "code": "IRQ",
    "p": 0,
    "w": 0,
    "d": 0,
