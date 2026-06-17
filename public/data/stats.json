@@ -73,6 +73,14 @@
    "ownGoals": 0
   },
   {
+   "id": "431212",
+   "name": "ALI OLWAN",
+   "code": "JOR",
+   "no": 9,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "430822",
    "name": "Amad DIALLO",
    "code": "CIV",
@@ -309,14 +317,6 @@
    "name": "Omar REKIK",
    "code": "TUN",
    "no": 4,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "384797",
-   "name": "RAMIN",
-   "code": "IRN",
-   "no": 23,
    "goals": 1,
    "ownGoals": 0
   }
