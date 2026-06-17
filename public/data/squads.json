@@ -19780,7 +19780,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Aris_Limassol_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/G%C3%A9d%C3%A9on_Kalulu",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -20068,7 +20068,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Al_Jazira_Club",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Simon_Banza",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
@@ -20152,7 +20152,7 @@
     "wiki": "https://en.wikipedia.org/wiki/N%C3%A9lson_Semedo",
     "wcApps": 1,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -20188,7 +20188,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1s_Ara%C3%BAjo",
     "wcApps": 1,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -20438,7 +20438,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Ramos",
-    "wcApps": 0,
+    "wcApps": 1,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
