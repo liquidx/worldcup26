@@ -193,6 +193,14 @@
    "ownGoals": 0
   },
   {
+   "id": "419681",
+   "name": "Kristian THORSTVEDT",
+   "code": "NOR",
+   "no": 18,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "441170",
    "name": "Ladislav KREJCI",
    "code": "CZE",
@@ -311,18 +319,10 @@
    "no": 23,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "356731",
-   "name": "RAÚL",
-   "code": "MEX",
-   "no": 9,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 41,
+  "yellow": 42,
   "red": 3,
   "players": [
    {

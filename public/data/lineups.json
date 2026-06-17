@@ -11318,7 +11318,14 @@
      "period": 3
     }
    ],
-   "bookings": [],
+   "bookings": [
+    {
+     "player": "434025",
+     "minute": "86'",
+     "card": 1,
+     "period": 5
+    }
+   ],
    "substitutions": [
     {
      "off": "436628",
@@ -11662,6 +11669,12 @@
      "minute": "76'",
      "type": 2,
      "period": 5
+    },
+    {
+     "player": "419681",
+     "minute": "90'+7'",
+     "type": 2,
+     "period": 5
     }
    ],
    "bookings": [],
@@ -11698,7 +11711,7 @@
     }
    ]
   },
-  "matchTime": "83'",
+  "matchTime": "90'+7'",
   "period": 5,
   "final": false
  },
