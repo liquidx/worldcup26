@@ -1430,16 +1430,16 @@
    "group": "K",
    "date": "2026-06-18T02:00:00Z",
    "venueId": "400222084",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "23'",
    "home": {
     "code": "UZB",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "COL",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "K3",
