@@ -85,6 +85,8 @@ const en: Dict = {
   runForecast: 'Run your own forecast',
   matchesShown: '{n} matches',
   'matchesShown#one': '{n} match',
+  showScores: 'Show scores',
+  hideScores: 'Hide scores',
   // groups
   groupsTitle: 'Group stage standings',
   colP: 'P',
