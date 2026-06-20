@@ -201,6 +201,14 @@
    "ownGoals": 0
   },
   {
+   "id": "448152",
+   "name": "Cody GAKPO",
+   "code": "NED",
+   "no": 11,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
    "id": "430452",
    "name": "Connor METCALFE",
    "code": "AUS",
@@ -311,18 +319,10 @@
    "no": 21,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "484141",
-   "name": "JOAO NEVES",
-   "code": "POR",
-   "no": 15,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 79,
+  "yellow": 80,
   "red": 7,
   "players": [
    {
