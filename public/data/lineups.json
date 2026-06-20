@@ -13517,7 +13517,7 @@
      "minute": "17'",
      "type": 2,
      "period": 3,
-     "sec": 973
+     "sec": 971
     }
    ],
    "bookings": [],
@@ -13819,7 +13819,7 @@
    "bookings": [],
    "substitutions": []
   },
-  "matchTime": "19'",
+  "matchTime": "32'",
   "period": 3,
   "final": false,
   "secTried": true
