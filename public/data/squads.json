@@ -7742,7 +7742,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Juri%C3%ABn_Gaari",
     "wcApps": 1,
     "wcGoals": 0,
-    "wcYellow": 0,
+    "wcYellow": 1,
     "wcRed": 0
    },
    {
@@ -8578,7 +8578,7 @@
     "clubWiki": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
     "captain": false,
     "wiki": "https://en.wikipedia.org/wiki/Nilson_Angulo",
-    "wcApps": 1,
+    "wcApps": 2,
     "wcGoals": 0,
     "wcYellow": 0,
     "wcRed": 0
