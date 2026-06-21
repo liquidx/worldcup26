@@ -2238,7 +2238,7 @@
    "date": "2026-06-21T04:00:00Z",
    "venueId": "400238450",
    "status": "live",
-   "time": "45'+3'",
+   "time": null,
    "home": {
     "code": "TUN",
     "score": 0,
