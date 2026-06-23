@@ -18,7 +18,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/GNK_Dinamo_Zagreb",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Dominik_Livakovi%C4%87",
-   "wcApps": 4,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -72,7 +72,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Josip_Stani%C5%A1i%C4%87",
-   "wcApps": 4,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -90,7 +90,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/ACF_Fiorentina",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Marin_Pongra%C4%8Di%C4%87",
-   "wcApps": 3,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -108,7 +108,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Jo%C5%A1ko_Gvardiol",
-   "wcApps": 4,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -144,7 +144,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/AFC_Ajax",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Josip_%C5%A0utalo",
-   "wcApps": 4,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -234,7 +234,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Mateo_Kova%C4%8Di%C4%87",
-   "wcApps": 4,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -252,9 +252,9 @@
    "clubWiki": "https://en.wikipedia.org/wiki/AC_Milan",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Luka_Modri%C4%87",
-   "wcApps": 4,
+   "wcApps": 2,
    "wcGoals": 0,
-   "wcYellow": 1,
+   "wcYellow": 0,
    "wcRed": 0
   },
   {
@@ -270,8 +270,8 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Torino_FC",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Nikola_Vla%C5%A1i%C4%87",
-   "wcApps": 3,
-   "wcGoals": 1,
+   "wcApps": 1,
+   "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
   },
@@ -288,7 +288,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Atalanta_BC",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Mario_Pa%C5%A1ali%C4%87",
-   "wcApps": 4,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -306,7 +306,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Como_1907",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Martin_Baturina",
-   "wcApps": 4,
+   "wcApps": 2,
    "wcGoals": 1,
    "wcYellow": 0,
    "wcRed": 0
@@ -324,9 +324,9 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Inter_Milan",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Petar_Su%C4%8Di%C4%87",
-   "wcApps": 4,
-   "wcGoals": 1,
-   "wcYellow": 1,
+   "wcApps": 1,
+   "wcGoals": 0,
+   "wcYellow": 0,
    "wcRed": 0
   },
   {
@@ -360,7 +360,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Real_Sociedad",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Luka_Su%C4%8Di%C4%87",
-   "wcApps": 1,
+   "wcApps": 0,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -378,7 +378,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Andrej_Kramari%C4%87",
-   "wcApps": 3,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -396,8 +396,8 @@
    "clubWiki": "https://en.wikipedia.org/wiki/CA_Osasuna",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Ante_Budimir",
-   "wcApps": 3,
-   "wcGoals": 1,
+   "wcApps": 0,
+   "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
   },
@@ -414,9 +414,9 @@
    "clubWiki": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Ivan_Peri%C5%A1i%C4%87",
-   "wcApps": 4,
-   "wcGoals": 1,
-   "wcYellow": 2,
+   "wcApps": 2,
+   "wcGoals": 0,
+   "wcYellow": 0,
    "wcRed": 0
   },
   {
@@ -432,7 +432,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/SC_Freiburg",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Igor_Matanovi%C4%87",
-   "wcApps": 3,
+   "wcApps": 1,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
@@ -450,7 +450,7 @@
    "clubWiki": "https://en.wikipedia.org/wiki/Orlando_City_SC",
    "captain": false,
    "wiki": "https://en.wikipedia.org/wiki/Marco_Pa%C5%A1ali%C4%87",
-   "wcApps": 3,
+   "wcApps": 2,
    "wcGoals": 0,
    "wcYellow": 0,
    "wcRed": 0
