@@ -1,11 +1,19 @@
 {
  "scorers": [
   {
+   "id": "229397",
+   "name": "Lionel MESSI",
+   "code": "ARG",
+   "no": 10,
+   "goals": 5,
+   "ownGoals": 0
+  },
+  {
    "id": "419652",
    "name": "Erling HAALAND",
    "code": "NOR",
    "no": 9,
-   "goals": 7,
+   "goals": 4,
    "ownGoals": 0
   },
   {
@@ -13,95 +21,7 @@
    "name": "Kylian MBAPPE",
    "code": "FRA",
    "no": 10,
-   "goals": 7,
-   "ownGoals": 0
-  },
-  {
-   "id": "229397",
-   "name": "Lionel MESSI",
-   "code": "ARG",
-   "no": 10,
-   "goals": 7,
-   "ownGoals": 0
-  },
-  {
-   "id": "369419",
-   "name": "Harry KANE",
-   "code": "ENG",
-   "no": 9,
-   "goals": 6,
-   "ownGoals": 0
-  },
-  {
-   "id": "401889",
-   "name": "Ismaila SARR",
-   "code": "SEN",
-   "no": 18,
    "goals": 4,
-   "ownGoals": 0
-  },
-  {
-   "id": "448202",
-   "name": "Jude BELLINGHAM",
-   "code": "ENG",
-   "no": 10,
-   "goals": 4,
-   "ownGoals": 0
-  },
-  {
-   "id": "429157",
-   "name": "Julian QUINONES",
-   "code": "MEX",
-   "no": 16,
-   "goals": 4,
-   "ownGoals": 0
-  },
-  {
-   "id": "430751",
-   "name": "Mikel OYARZABAL",
-   "code": "ESP",
-   "no": 21,
-   "goals": 4,
-   "ownGoals": 0
-  },
-  {
-   "id": "398680",
-   "name": "Ousmane DEMBELE",
-   "code": "FRA",
-   "no": 7,
-   "goals": 4,
-   "ownGoals": 0
-  },
-  {
-   "id": "405742",
-   "name": "VINICIUS JUNIOR",
-   "code": "BRA",
-   "no": 7,
-   "goals": 4,
-   "ownGoals": 0
-  },
-  {
-   "id": "424051",
-   "name": "Brian BROBBEY",
-   "code": "NED",
-   "no": 19,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "448152",
-   "name": "Cody GAKPO",
-   "code": "NED",
-   "no": 11,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "201200",
-   "name": "CRISTIANO RONALDO",
-   "code": "POR",
-   "no": 7,
-   "goals": 3,
    "ownGoals": 0
   },
   {
@@ -109,38 +29,6 @@
    "name": "Deniz UNDAV",
    "code": "GER",
    "no": 26,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "405454",
-   "name": "Elijah JUST",
-   "code": "NZL",
-   "no": 11,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "466624",
-   "name": "Folarin BALOGUN",
-   "code": "USA",
-   "no": 20,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "448598",
-   "name": "Ismael SAIBARI",
-   "code": "MAR",
-   "no": 11,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "502727",
-   "name": "Johan MANZAMBI",
-   "code": "SUI",
-   "no": 9,
    "goals": 3,
    "ownGoals": 0
   },
@@ -153,54 +41,6 @@
    "ownGoals": 0
   },
   {
-   "id": "411367",
-   "name": "Kai HAVERTZ",
-   "code": "GER",
-   "no": 7,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "430609",
-   "name": "MATHEUS CUNHA",
-   "code": "BRA",
-   "no": 9,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "356731",
-   "name": "Raul JIMENEZ",
-   "code": "MEX",
-   "no": 9,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "441316",
-   "name": "Yoane WISSA",
-   "code": "COD",
-   "no": 20,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "430822",
-   "name": "Amad DIALLO",
-   "code": "CIV",
-   "no": 15,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "441137",
-   "name": "Anthony ELANGA",
-   "code": "SWE",
-   "no": 11,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
    "id": "430413",
    "name": "Ayase UEDA",
    "code": "JPN",
@@ -209,26 +49,18 @@
    "ownGoals": 0
   },
   {
-   "id": "441307",
-   "name": "Azzedine OUNAHI",
-   "code": "MAR",
-   "no": 8,
+   "id": "424051",
+   "name": "Brian BROBBEY",
+   "code": "NED",
+   "no": 19,
    "goals": 2,
    "ownGoals": 0
   },
   {
-   "id": "484860",
-   "name": "Bradley BARCOLA",
-   "code": "FRA",
-   "no": 12,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "393480",
-   "name": "Breel EMBOLO",
-   "code": "SUI",
-   "no": 7,
+   "id": "448152",
+   "name": "Cody GAKPO",
+   "code": "NED",
+   "no": 11,
    "goals": 2,
    "ownGoals": 0
   },
@@ -257,50 +89,66 @@
    "ownGoals": 0
   },
   {
-   "id": "431200",
-   "name": "Daniel MUNOZ",
-   "code": "COL",
-   "no": 2,
+   "id": "405454",
+   "name": "Elijah JUST",
+   "code": "NZL",
+   "no": 11,
    "goals": 2,
    "ownGoals": 0
   },
   {
-   "id": "430482",
-   "name": "EMAM ASHOUR",
-   "code": "EGY",
-   "no": 8,
+   "id": "466624",
+   "name": "Folarin BALOGUN",
+   "code": "USA",
+   "no": 20,
    "goals": 2,
    "ownGoals": 0
   },
   {
-   "id": "522846",
-   "name": "Ermin MAHMIC",
-   "code": "BIH",
-   "no": 26,
+   "id": "369419",
+   "name": "Harry KANE",
+   "code": "ENG",
+   "no": 9,
    "goals": 2,
    "ownGoals": 0
   },
   {
-   "id": "486130",
-   "name": "Habib DIARRA",
+   "id": "448598",
+   "name": "Ismael SAIBARI",
+   "code": "MAR",
+   "no": 11,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
+   "id": "401889",
+   "name": "Ismaila SARR",
    "code": "SEN",
-   "no": 21,
+   "no": 18,
    "goals": 2,
    "ownGoals": 0
   },
   {
-   "id": "448355",
-   "name": "Leandro TROSSARD",
-   "code": "BEL",
-   "no": 10,
+   "id": "502727",
+   "name": "Johan MANZAMBI",
+   "code": "SUI",
+   "no": 9,
    "goals": 2,
    "ownGoals": 0
   },
   {
-   "id": "299200",
-   "name": "Marko ARNAUTOVIC",
-   "code": "AUT",
+   "id": "411367",
+   "name": "Kai HAVERTZ",
+   "code": "GER",
    "no": 7,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
+   "id": "430609",
+   "name": "MATHEUS CUNHA",
+   "code": "BRA",
+   "no": 9,
    "goals": 2,
    "ownGoals": 0
   },
@@ -313,56 +161,176 @@
    "ownGoals": 0
   },
   {
-   "id": "402261",
-   "name": "Nicolas PEPE",
-   "code": "CIV",
-   "no": 19,
+   "id": "430751",
+   "name": "Mikel OYARZABAL",
+   "code": "ESP",
+   "no": 21,
    "goals": 2,
+   "ownGoals": 0
+  },
+  {
+   "id": "405742",
+   "name": "VINICIUS JUNIOR",
+   "code": "BRA",
+   "no": 7,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
+   "id": "489688",
+   "name": "Yasin AYARI",
+   "code": "SWE",
+   "no": 18,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
+   "id": "464933",
+   "name": "Abbosbek FAYZULLAEV",
+   "code": "UZB",
+   "no": 22,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "403312",
+   "name": "ABDULELAH ALAMRI",
+   "code": "KSA",
+   "no": 4,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "402876",
+   "name": "Agustin CANOBBIO",
+   "code": "URU",
+   "no": 14,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "464542",
+   "name": "Alex FREEMAN",
+   "code": "USA",
+   "no": 16,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "430150",
+   "name": "Alexander ISAK",
+   "code": "SWE",
+   "no": 9,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "431212",
+   "name": "ALI OLWAN",
+   "code": "JOR",
+   "no": 9,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "430822",
+   "name": "Amad DIALLO",
+   "code": "CIV",
+   "no": 15,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "405877",
+   "name": "Amine GOUIRI",
+   "code": "ALG",
+   "no": 9,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "441137",
+   "name": "Anthony ELANGA",
+   "code": "SWE",
+   "no": 11,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "395186",
+   "name": "AYMEN HUSSEIN",
+   "code": "IRQ",
+   "no": 18,
+   "goals": 1,
+   "ownGoals": 1
+  },
+  {
+   "id": "484860",
+   "name": "Bradley BARCOLA",
+   "code": "FRA",
+   "no": 12,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "393480",
+   "name": "Breel EMBOLO",
+   "code": "SUI",
+   "no": 7,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "506279",
+   "name": "Caleb YIRENKYI",
+   "code": "GHA",
+   "no": 3,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "430452",
+   "name": "Connor METCALFE",
+   "code": "AUS",
+   "no": 8,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "201200",
+   "name": "CRISTIANO RONALDO",
+   "code": "POR",
+   "no": 7,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "431200",
+   "name": "Daniel MUNOZ",
+   "code": "COL",
+   "no": 2,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "430482",
+   "name": "EMAM ASHOUR",
+   "code": "EGY",
+   "no": 8,
+   "goals": 1,
    "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 241,
-  "red": 13,
+  "yellow": 107,
+  "red": 8,
   "players": [
-   {
-    "id": "466624",
-    "name": "Folarin BALOGUN",
-    "code": "USA",
-    "no": 20,
-    "y": 1,
-    "r": 1
-   },
-   {
-    "id": "463809",
-    "name": "Jarell QUANSAH",
-    "code": "ENG",
-    "no": 26,
-    "y": 1,
-    "r": 1
-   },
    {
     "id": "369761",
     "name": "Miguel ALMIRON",
     "code": "PAR",
     "no": 10,
     "y": 1,
-    "r": 1
-   },
-   {
-    "id": "424031",
-    "name": "Piero HINCAPIE",
-    "code": "ECU",
-    "no": 3,
-    "y": 1,
-    "r": 1
-   },
-   {
-    "id": "402876",
-    "name": "Agustin CANOBBIO",
-    "code": "URU",
-    "no": 14,
-    "y": 0,
     "r": 1
    },
    {
@@ -398,14 +366,6 @@
     "r": 1
    },
    {
-    "id": "396158",
-    "name": "REBIN SULAKA",
-    "code": "IRQ",
-    "no": 2,
-    "y": 0,
-    "r": 1
-   },
-   {
     "id": "390475",
     "name": "Sphephelo SITHOLE",
     "code": "RSA",
@@ -430,11 +390,50 @@
     "r": 1
    },
    {
+    "id": null,
+    "name": "#null",
+    "code": "TUR",
+    "y": 2,
+    "r": 0
+   },
+   {
+    "id": "477832",
+    "name": "SIDNY LOPES CABRAL",
+    "code": "CPV",
+    "no": 13,
+    "y": 2,
+    "r": 0
+   },
+   {
+    "id": "403616",
+    "name": "Teboho MOKOENA",
+    "code": "RSA",
+    "no": 4,
+    "y": 2,
+    "r": 0
+   },
+   {
+    "id": "442428",
+    "name": "Aaron HICKEY",
+    "code": "SCO",
+    "no": 2,
+    "y": 1,
+    "r": 0
+   },
+   {
     "id": "464924",
     "name": "Abdukodir KHUSANOV",
     "code": "UZB",
     "no": 2,
-    "y": 2,
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "403312",
+    "name": "ABDULELAH ALAMRI",
+    "code": "KSA",
+    "no": 4,
+    "y": 1,
     "r": 0
    },
    {
@@ -442,52 +441,52 @@
     "name": "AHMED FATHY",
     "code": "QAT",
     "no": 20,
-    "y": 2,
+    "y": 1,
     "r": 0
    },
    {
-    "id": "389784",
-    "name": "Alan FRANCO",
-    "code": "ECU",
-    "no": 21,
-    "y": 2,
+    "id": "430477",
+    "name": "AHMED FATOUH",
+    "code": "EGY",
+    "no": 13,
+    "y": 1,
     "r": 0
    },
    {
-    "id": "433074",
-    "name": "AMIR ALAMMARI",
-    "code": "IRQ",
-    "no": 16,
-    "y": 2,
-    "r": 0
-   },
-   {
-    "id": "506279",
-    "name": "Caleb YIRENKYI",
-    "code": "GHA",
+    "id": "448014",
+    "name": "Alessandro CIRCATI",
+    "code": "AUS",
     "no": 3,
-    "y": 2,
+    "y": 1,
     "r": 0
    },
    {
-    "id": "308386",
-    "name": "CASEMIRO",
-    "code": "BRA",
-    "no": 5,
-    "y": 2,
+    "id": "485802",
+    "name": "Alex ARCE",
+    "code": "PAR",
+    "no": 18,
+    "y": 1,
     "r": 0
    },
    {
-    "id": "390670",
-    "name": "Cyle LARIN",
+    "id": "441252",
+    "name": "Alistair JOHNSTON",
     "code": "CAN",
-    "no": 9,
-    "y": 2,
+    "no": 2,
+    "y": 1,
+    "r": 0
+   },
+   {
+    "id": "482976",
+    "name": "Amar DEDIC",
+    "code": "BIH",
+    "no": 7,
+    "y": 1,
     "r": 0
    }
   ]
  },
- "attAvg": 65231,
+ "attAvg": 64796,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -506,163 +505,208 @@
  },
  "fairPlay": {
   "group": {
-   "MEX": -6,
-   "RSA": -13,
-   "KOR": -4,
+   "MEX": -5,
+   "RSA": -12,
+   "KOR": -3,
    "CZE": -1,
-   "CAN": -5,
-   "BIH": -10,
-   "USA": -5,
-   "PAR": -12,
-   "HAI": -7,
-   "SCO": -5,
-   "AUS": -5,
+   "CAN": -3,
+   "BIH": -9,
+   "USA": -4,
+   "PAR": -11,
+   "HAI": -4,
+   "SCO": -4,
+   "AUS": -4,
    "TUR": -3,
-   "BRA": -5,
+   "BRA": -3,
    "MAR": -1,
-   "QAT": -12,
-   "SUI": -3,
-   "CIV": -4,
-   "ECU": -5,
-   "GER": -1,
-   "CUW": -7,
+   "QAT": -11,
+   "SUI": -2,
+   "CIV": -3,
+   "ECU": -2,
+   "GER": 0,
+   "CUW": -5,
    "NED": -3,
-   "JPN": -1,
-   "SWE": -5,
+   "JPN": 0,
+   "SWE": -3,
    "TUN": -1,
-   "KSA": -6,
-   "URU": -9,
-   "ESP": -2,
-   "CPV": -4,
-   "IRN": -6,
-   "NZL": -4,
+   "KSA": -3,
+   "URU": -2,
+   "ESP": -1,
+   "CPV": -3,
+   "IRN": -2,
+   "NZL": -2,
    "BEL": -7,
-   "EGY": -6,
-   "FRA": -1,
-   "SEN": -2,
-   "IRQ": -8,
-   "NOR": -1,
+   "EGY": -3,
+   "FRA": 0,
+   "SEN": 0,
+   "IRQ": -2,
+   "NOR": 0,
    "ARG": -2,
    "ALG": -1,
-   "AUT": -4,
-   "JOR": -4,
-   "GHA": -3,
-   "PAN": -5,
-   "ENG": -2,
-   "CRO": -2,
-   "POR": -4,
-   "COD": -5,
-   "UZB": -4,
-   "COL": -4
+   "AUT": -3,
+   "JOR": -1,
+   "GHA": -1,
+   "PAN": -2,
+   "ENG": 0,
+   "CRO": 0,
+   "POR": -3,
+   "COD": -1,
+   "UZB": -1,
+   "COL": -1
   },
   "all": {
-   "MEX": -8,
-   "RSA": -13,
-   "KOR": -4,
+   "MEX": -5,
+   "RSA": -12,
+   "KOR": -3,
    "CZE": -1,
-   "CAN": -11,
-   "BIH": -12,
-   "USA": -9,
-   "PAR": -17,
-   "HAI": -7,
-   "SCO": -5,
-   "AUS": -5,
+   "CAN": -3,
+   "BIH": -9,
+   "USA": -4,
+   "PAR": -11,
+   "HAI": -4,
+   "SCO": -4,
+   "AUS": -4,
    "TUR": -3,
-   "BRA": -8,
-   "MAR": -6,
-   "QAT": -12,
-   "SUI": -3,
-   "CIV": -4,
-   "ECU": -12,
-   "GER": -6,
-   "CUW": -7,
+   "BRA": -3,
+   "MAR": -1,
+   "QAT": -11,
+   "SUI": -2,
+   "CIV": -3,
+   "ECU": -2,
+   "GER": 0,
+   "CUW": -5,
    "NED": -3,
-   "JPN": -4,
-   "SWE": -5,
+   "JPN": 0,
+   "SWE": -3,
    "TUN": -1,
-   "KSA": -6,
-   "URU": -9,
-   "ESP": -2,
-   "CPV": -5,
-   "IRN": -6,
-   "NZL": -4,
-   "BEL": -9,
-   "EGY": -9,
-   "FRA": -4,
-   "SEN": -3,
-   "IRQ": -8,
-   "NOR": -2,
-   "ARG": -3,
-   "ALG": -3,
-   "AUT": -5,
-   "JOR": -4,
-   "GHA": -6,
-   "PAN": -5,
-   "ENG": -11,
-   "CRO": -4,
-   "POR": -5,
-   "COD": -6,
-   "UZB": -4,
-   "COL": -6
+   "KSA": -3,
+   "URU": -2,
+   "ESP": -1,
+   "CPV": -3,
+   "IRN": -2,
+   "NZL": -2,
+   "BEL": -7,
+   "EGY": -3,
+   "FRA": 0,
+   "SEN": 0,
+   "IRQ": -2,
+   "NOR": 0,
+   "ARG": -2,
+   "ALG": -1,
+   "AUT": -3,
+   "JOR": -1,
+   "GHA": -1,
+   "PAN": -2,
+   "ENG": 0,
+   "CRO": 0,
+   "POR": -3,
+   "COD": -1,
+   "UZB": -1,
+   "COL": -1
   }
  },
  "suspensions": {
-  "USA": [
+  "RSA": [
    {
-    "id": "466624",
-    "name": "Folarin BALOGUN",
+    "id": "403616",
+    "name": "Teboho MOKOENA",
+    "bans": [
+     {
+      "type": "yellows",
+      "due": [
+       "400021443",
+       "400021440"
+      ],
+      "banned": "400021445"
+     }
+    ]
+   }
+  ],
+  "BIH": [
+   {
+    "id": "484022",
+    "name": "Tarik MUHAREMOVIC",
     "bans": [
      {
       "type": "red",
       "due": [
-       "400021524"
+       "400021446"
       ],
-      "banned": "400021534"
+      "banned": "400021448"
      }
     ]
    }
   ],
-  "EGY": [
+  "QAT": [
    {
-    "id": "369267",
-    "name": "YASSER IBRAHIM",
+    "id": "386348",
+    "name": "ASSIM MADIBO",
     "bans": [
      {
-      "type": "yellows",
+      "type": "red",
       "due": [
-       "400021479",
-       "400021515"
+       "400021450"
       ],
-      "banned": "400021528"
-     }
-    ]
-   }
-  ],
-  "ENG": [
-   {
-    "id": "433097",
-    "name": "Declan RICE",
-    "bans": [
-     {
-      "type": "yellows",
-      "due": [
-       "400021506",
-       "400021531"
-      ],
-      "banned": "400021539"
+      "banned": "400021448"
      }
     ]
    },
    {
-    "id": "463809",
-    "name": "Jarell QUANSAH",
+    "id": "419441",
+    "name": "HOMAM AHMED",
     "bans": [
      {
       "type": "red",
       "due": [
-       "400021531"
+       "400021450"
       ],
-      "banned": "400021539"
+      "banned": "400021448"
+     }
+    ]
+   }
+  ],
+  "PAR": [
+   {
+    "id": "369761",
+    "name": "Miguel ALMIRON",
+    "bans": [
+     {
+      "type": "red",
+      "due": [
+       "400021460"
+      ],
+      "banned": "400021461"
+     }
+    ]
+   }
+  ],
+  "BEL": [
+   {
+    "id": "514166",
+    "name": "Nathan NGOY",
+    "bans": [
+     {
+      "type": "red",
+      "due": [
+       "400021477"
+      ],
+      "banned": "400021481"
+     }
+    ]
+   }
+  ],
+  "CPV": [
+   {
+    "id": "477832",
+    "name": "SIDNY LOPES CABRAL",
+    "bans": [
+     {
+      "type": "yellows",
+      "due": [
+       "400021482",
+       "400021487"
+      ],
+      "banned": "400021485"
      }
     ]
    }
