@@ -374,6 +374,12 @@
   user-select: none;
   transition: filter 0.2s ease;
 }
+/* dimming the loser row would give away the result — keep both sides equal
+   while scores are hidden */
+.mxp-hide-scores .mc-row.loser .nm,
+.mxp-hide-scores .mc-row.loser .score {
+  color: inherit;
+}
 @media (prefers-reduced-motion: reduce) {
   .mxp-hide-scores .mc-row .score {
     transition: none;
