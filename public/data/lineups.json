@@ -30074,6 +30074,24 @@
      "on": "463780",
      "minute": "65'",
      "period": 5
+    },
+    {
+     "off": "448202",
+     "on": "492716",
+     "minute": "74'",
+     "period": 5
+    },
+    {
+     "off": "481610",
+     "on": "473113",
+     "minute": "74'",
+     "period": 5
+    },
+    {
+     "off": "489732",
+     "on": "401470",
+     "minute": "83'",
+     "period": 5
     }
    ]
   },
@@ -30393,7 +30411,7 @@
     }
    ]
   },
-  "matchTime": "71'",
+  "matchTime": "87'",
   "period": 5,
   "final": false,
   "secTried": true
@@ -31764,7 +31782,7 @@
  },
  "400021511": {
   "home": {
-   "tactics": null,
+   "tactics": "3-4-3",
    "xi": [
     {
      "id": "441241",
@@ -32060,7 +32078,7 @@
    "substitutions": []
   },
   "away": {
-   "tactics": null,
+   "tactics": "4-2-3-1",
    "xi": [
     {
      "id": "369029",
