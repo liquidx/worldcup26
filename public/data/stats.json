@@ -25,10 +25,26 @@
    "ownGoals": 0
   },
   {
+   "id": "405742",
+   "name": "VINICIUS JUNIOR",
+   "code": "BRA",
+   "no": 7,
+   "goals": 4,
+   "ownGoals": 0
+  },
+  {
    "id": "484851",
    "name": "Deniz UNDAV",
    "code": "GER",
    "no": 26,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
+   "id": "448598",
+   "name": "Ismael SAIBARI",
+   "code": "MAR",
+   "no": 11,
    "goals": 3,
    "ownGoals": 0
   },
@@ -45,14 +61,6 @@
    "name": "Jonathan DAVID",
    "code": "CAN",
    "no": 10,
-   "goals": 3,
-   "ownGoals": 0
-  },
-  {
-   "id": "405742",
-   "name": "VINICIUS JUNIOR",
-   "code": "BRA",
-   "no": 7,
    "goals": 3,
    "ownGoals": 0
   },
@@ -153,14 +161,6 @@
    "ownGoals": 0
   },
   {
-   "id": "448598",
-   "name": "Ismael SAIBARI",
-   "code": "MAR",
-   "no": 11,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
    "id": "401889",
    "name": "Ismaila SARR",
    "code": "SEN",
@@ -229,6 +229,14 @@
    "name": "ABDULELAH ALAMRI",
    "code": "KSA",
    "no": 4,
+   "goals": 1,
+   "ownGoals": 0
+  },
+  {
+   "id": "400721",
+   "name": "Achraf HAKIMI",
+   "code": "MAR",
+   "no": 2,
    "goals": 1,
    "ownGoals": 0
   },
@@ -309,14 +317,6 @@
    "name": "Bradley BARCOLA",
    "code": "FRA",
    "no": 12,
-   "goals": 1,
-   "ownGoals": 0
-  },
-  {
-   "id": "393480",
-   "name": "Breel EMBOLO",
-   "code": "SUI",
-   "no": 7,
    "goals": 1,
    "ownGoals": 0
   }
