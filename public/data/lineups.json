@@ -28241,10 +28241,17 @@
    ],
    "goals": [],
    "bookings": [],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "494458",
+     "on": "486147",
+     "minute": "",
+     "period": 4
+    }
+   ]
   },
-  "matchTime": null,
-  "period": 4,
+  "matchTime": "51'",
+  "period": 5,
   "final": false,
   "secTried": true
  },
