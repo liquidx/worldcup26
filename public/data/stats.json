@@ -121,6 +121,14 @@
    "ownGoals": 0
   },
   {
+   "id": "522846",
+   "name": "Ermin MAHMIC",
+   "code": "BIH",
+   "no": 26,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "466624",
    "name": "Folarin BALOGUN",
    "code": "USA",
@@ -311,18 +319,10 @@
    "no": 7,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "506279",
-   "name": "Caleb YIRENKYI",
-   "code": "GHA",
-   "no": 3,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 118,
+  "yellow": 120,
   "red": 8,
   "players": [
    {
