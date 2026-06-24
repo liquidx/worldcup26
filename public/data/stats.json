@@ -65,6 +65,14 @@
    "ownGoals": 0
   },
   {
+   "id": "430609",
+   "name": "MATHEUS CUNHA",
+   "code": "BRA",
+   "no": 9,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "430413",
    "name": "Ayase UEDA",
    "code": "JPN",
@@ -173,14 +181,6 @@
    "name": "Kai HAVERTZ",
    "code": "GER",
    "no": 7,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "430609",
-   "name": "MATHEUS CUNHA",
-   "code": "BRA",
-   "no": 9,
    "goals": 2,
    "ownGoals": 0
   },
@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 120,
+  "yellow": 121,
   "red": 8,
   "players": [
    {
