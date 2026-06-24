@@ -25,14 +25,6 @@
    "ownGoals": 0
   },
   {
-   "id": "405742",
-   "name": "VINICIUS JUNIOR",
-   "code": "BRA",
-   "no": 7,
-   "goals": 4,
-   "ownGoals": 0
-  },
-  {
    "id": "484851",
    "name": "Deniz UNDAV",
    "code": "GER",
@@ -53,6 +45,14 @@
    "name": "Jonathan DAVID",
    "code": "CAN",
    "no": 10,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
+   "id": "405742",
+   "name": "VINICIUS JUNIOR",
+   "code": "BRA",
+   "no": 7,
    "goals": 3,
    "ownGoals": 0
   },
