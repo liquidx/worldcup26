@@ -177,6 +177,14 @@
    "ownGoals": 0
   },
   {
+   "id": "429157",
+   "name": "Julian QUINONES",
+   "code": "MEX",
+   "no": 16,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "411367",
    "name": "Kai HAVERTZ",
    "code": "GER",
@@ -311,18 +319,10 @@
    "no": 18,
    "goals": 1,
    "ownGoals": 1
-  },
-  {
-   "id": "484860",
-   "name": "Bradley BARCOLA",
-   "code": "FRA",
-   "no": 12,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 126,
+  "yellow": 127,
   "red": 8,
   "players": [
    {

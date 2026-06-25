@@ -3439,7 +3439,7 @@
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400222084",
    "status": "live",
-   "time": "57'",
+   "time": "71'",
    "home": {
     "code": "CZE",
     "score": 0,
@@ -3447,7 +3447,7 @@
    },
    "away": {
     "code": "MEX",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "phA": "A4",
@@ -3498,10 +3498,10 @@
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400238450",
    "status": "live",
-   "time": "57'",
+   "time": "69'",
    "home": {
     "code": "RSA",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
