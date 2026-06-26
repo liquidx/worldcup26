@@ -13705,9 +13705,16 @@
      "period": 3
     }
    ],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "406304",
+     "on": "390267",
+     "minute": "58'",
+     "period": 5
+    }
+   ]
   },
-  "matchTime": "52'",
+  "matchTime": "66'",
   "period": 5,
   "final": false,
   "secTried": true
@@ -14984,9 +14991,16 @@
      "period": 5
     }
    ],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "448015",
+     "on": "404319",
+     "minute": "58'",
+     "period": 5
+    }
+   ]
   },
-  "matchTime": "52'",
+  "matchTime": "65'",
   "period": 5,
   "final": false,
   "secTried": true
