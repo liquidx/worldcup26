@@ -1,33 +1,33 @@
 {
- "updatedAt": "2026-06-25T23:48:58.542Z",
+ "updatedAt": "2026-06-26T00:02:44.931Z",
  "season": "285023",
  "titleOdds": [
   {
    "c": "ARG",
-   "p": 22.8
+   "p": 22
   },
   {
    "c": "ESP",
-   "p": 17.3
+   "p": 17
   },
   {
    "c": "FRA",
-   "p": 14.3
+   "p": 14.4
   },
   {
    "c": "ENG",
-   "p": 8.6
+   "p": 9
   },
   {
    "c": "BRA",
-   "p": 5.7
+   "p": 5.6
   }
  ],
  "counts": {
   "matches": 104,
   "teams": 48,
   "squads": 48,
-  "weather": 98,
+  "weather": 99,
   "lineups": 60,
   "flags": 179
  },
