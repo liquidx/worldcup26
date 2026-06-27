@@ -241,6 +241,14 @@
    "ownGoals": 0
   },
   {
+   "id": "384797",
+   "name": "Ramin REZAEIAN",
+   "code": "IRN",
+   "no": 23,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "448131",
    "name": "Ruben VARGAS",
    "code": "SUI",
@@ -311,18 +319,10 @@
    "no": 9,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "431212",
-   "name": "ALI OLWAN",
-   "code": "JOR",
-   "no": 9,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 156,
+  "yellow": 158,
   "red": 10,
   "players": [
    {
