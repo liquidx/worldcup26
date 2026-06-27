@@ -406,13 +406,6 @@
     "r": 1
    },
    {
-    "id": null,
-    "name": "#null",
-    "code": "TUR",
-    "y": 2,
-    "r": 0
-   },
-   {
     "id": "433394",
     "name": "AHMED FATHY",
     "code": "QAT",
@@ -482,6 +475,14 @@
     "code": "RSA",
     "no": 4,
     "y": 2,
+    "r": 0
+   },
+   {
+    "id": "442428",
+    "name": "Aaron HICKEY",
+    "code": "SCO",
+    "no": 2,
+    "y": 1,
     "r": 0
    }
   ]
