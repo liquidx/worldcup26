@@ -281,6 +281,14 @@
    "ownGoals": 0
   },
   {
+   "id": "379942",
+   "name": "Riyad MAHREZ",
+   "code": "ALG",
+   "no": 7,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
    "id": "448131",
    "name": "Ruben VARGAS",
    "code": "SUI",
@@ -311,18 +319,10 @@
    "no": 4,
    "goals": 1,
    "ownGoals": 0
-  },
-  {
-   "id": "400721",
-   "name": "Achraf HAKIMI",
-   "code": "MAR",
-   "no": 2,
-   "goals": 1,
-   "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 179,
+  "yellow": 180,
   "red": 10,
   "players": [
    {
