@@ -105,6 +105,14 @@
    "ownGoals": 0
   },
   {
+   "id": "411367",
+   "name": "Kai HAVERTZ",
+   "code": "GER",
+   "no": 7,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "430609",
    "name": "MATHEUS CUNHA",
    "code": "BRA",
@@ -217,14 +225,6 @@
    "ownGoals": 0
   },
   {
-   "id": "411367",
-   "name": "Kai HAVERTZ",
-   "code": "GER",
-   "no": 7,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
    "id": "448355",
    "name": "Leandro TROSSARD",
    "code": "BEL",
@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 187,
+  "yellow": 188,
   "red": 10,
   "players": [
    {
