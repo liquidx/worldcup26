@@ -53729,9 +53729,22 @@
    ],
    "goals": [],
    "bookings": [],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "519958",
+     "on": "514202",
+     "minute": "65'",
+     "period": 5
+    },
+    {
+     "off": "489689",
+     "on": "503047",
+     "minute": "65'",
+     "period": 5
+    }
+   ]
   },
-  "matchTime": "54'",
+  "matchTime": "68'",
   "period": 5,
   "final": false,
   "secTried": true
