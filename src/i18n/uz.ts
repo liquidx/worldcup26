@@ -178,7 +178,7 @@ const uz: Dict = {
     "Hozirgacha bo'lgan haqiqiy natijalarni saqlab, shu paytdan boshlab qolgan hamma narsani simulyatsiya qiladi. Tugamagan o'yinlarning vaqtinchalik hisobi hisobga olinmaydi. Final o'ynalgandan so'ng bu variant o'chiriladi.",
   simOpenerTip: "Ochilish o'yinidan boshlab har bir o'yinni qayta simulyatsiya qiladi.",
   simDateTip:
-    "Shu sanadan keyin o'ynaladigan har bir o'yinni simulyatsiya qiladi (mahalliy vaqtingiz bo'yicha).",
+    "Shu sanadan boshlab o'ynaladigan har bir o'yinni simulyatsiya qiladi (shu sanani ham qo'shgan holda) (mahalliy vaqtingiz bo'yicha).",
   simMatch: "O'yin",
   simMatchTip:
     "Shu o'yin raqamidan boshlab har bir o'yinni simulyatsiya qiladi (shu o'yinni ham qo'shgan holda).",

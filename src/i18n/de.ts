@@ -179,7 +179,7 @@ const de: Dict = {
   simNowTip:
     'Bisherige Ergebnisse bleiben erhalten, alles Weitere wird ab jetzt simuliert. Vorläufige Spielstände noch laufender Spiele werden nicht berücksichtigt. Sobald das Finale gespielt ist, ist diese Option deaktiviert.',
   simOpenerTip: 'Alle Spiele neu simulieren, beginnend mit dem Eröffnungsspiel.',
-  simDateTip: 'Alle Spiele simulieren, die nach diesem Datum ausgetragen werden (deine Ortszeit).',
+  simDateTip: 'Alle Spiele ab diesem Datum simulieren (einschließlich dieses Tages) (deine Ortszeit).',
   simMatch: 'Spiel',
   simMatchTip: 'Alle Spiele ab dieser Spielnummer simulieren (einschließlich dieser).',
   fcTitle: 'Ergebniswahrscheinlichkeiten ({n} Durchläufe)',

@@ -178,7 +178,7 @@ const cs: Dict = {
   simNowTip:
     'Zachová dosavadní skutečné výsledky a od tohoto okamžiku odsimuluje všechny zbývající zápasy. Průběžné skóre dosud nedohraných zápasů se nezapočítává. Po odehrání finále je tato možnost nedostupná.',
   simOpenerTip: 'Znovu odsimuluje všechny zápasy od úvodního utkání.',
-  simDateTip: 'Odsimuluje všechny zápasy hrané po tomto datu (váš místní čas).',
+  simDateTip: 'Odsimuluje všechny zápasy od tohoto data dál (včetně něj) (váš místní čas).',
   simMatch: 'Zápas',
   simMatchTip: 'Odsimuluje všechny zápasy od tohoto čísla zápasu dál (včetně něj).',
   fcTitle: 'Pravděpodobnosti výsledků ({n} simulací)',

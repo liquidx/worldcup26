@@ -179,7 +179,7 @@ const nl: Dict = {
   simNowTip:
     'Behoud de echte uitslagen tot nu toe en simuleer alles vanaf dit moment. Tussenstanden van wedstrijden die nog bezig zijn, tellen niet mee. Zodra de finale is gespeeld, is deze optie niet meer beschikbaar.',
   simOpenerTip: 'Simuleer alle wedstrijden opnieuw, te beginnen met de openingswedstrijd.',
-  simDateTip: 'Simuleer elke wedstrijd die na deze datum wordt gespeeld (jouw lokale tijd).',
+  simDateTip: 'Simuleer elke wedstrijd vanaf deze datum (inclusief deze datum) (jouw lokale tijd).',
   simMatch: 'Wedstrijd',
   simMatchTip: 'Simuleer elke wedstrijd vanaf dit wedstrijdnummer (inclusief deze wedstrijd).',
   fcTitle: 'Uitkomstkansen ({n} simulaties)',

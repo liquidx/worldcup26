@@ -176,7 +176,7 @@ const tr: Dict = {
   simNowTip:
     'Şu ana kadarki gerçek sonuçlar korunur, kalan tüm maçlar bu andan itibaren simüle edilir. Henüz bitmemiş maçların geçici skorları hesaba katılmaz. Final oynandıktan sonra bu seçenek devre dışı kalır.',
   simOpenerTip: 'Açılış maçından itibaren tüm maçlar yeniden simüle edilir.',
-  simDateTip: 'Bu tarihten sonra oynanan tüm maçlar simüle edilir (yerel saatinizle).',
+  simDateTip: 'Bu tarihten itibaren (bu tarih dahil) oynanan tüm maçlar simüle edilir (yerel saatinizle).',
   simMatch: 'Maç',
   simMatchTip: 'Bu maç numarasından itibaren (bu maç dahil) tüm maçlar simüle edilir.',
   fcTitle: 'Sonuç olasılıkları ({n} simülasyon)',

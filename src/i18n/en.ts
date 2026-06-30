@@ -181,7 +181,7 @@ const en: Dict = {
   simNowTip:
     'Keep real results so far, then simulate everything from now on. Temporary scores of unfinished matches are not counted. Once the final is played, this option is disabled.',
   simOpenerTip: 'Resimulate every match, starting from the opening game.',
-  simDateTip: 'Simulate every match played after this date (your local time).',
+  simDateTip: 'Simulate every match played from this date onward (including it) (your local time).',
   simMatch: 'Match',
   simMatchTip: 'Simulate every match from this match number onward (including it).',
   // ---- forecast: outcome-probability table ----

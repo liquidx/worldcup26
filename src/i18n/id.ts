@@ -176,7 +176,8 @@ const id: Dict = {
   simNowTip:
     'Pertahankan hasil nyata sejauh ini, lalu simulasikan semua pertandingan sisanya mulai dari sekarang. Skor sementara dari pertandingan yang masih berlangsung tidak diperhitungkan. Setelah final dimainkan, opsi ini dinonaktifkan.',
   simOpenerTip: 'Simulasikan ulang setiap pertandingan, mulai dari laga pembuka.',
-  simDateTip: 'Simulasikan setiap pertandingan yang dimainkan setelah tanggal ini (waktu lokal Anda).',
+  simDateTip:
+    'Simulasikan setiap pertandingan mulai dari tanggal ini dan seterusnya (termasuk tanggal ini) (waktu lokal Anda).',
   simMatch: 'Laga',
   simMatchTip:
     'Simulasikan setiap pertandingan mulai dari nomor laga ini dan seterusnya (termasuk laga ini).',

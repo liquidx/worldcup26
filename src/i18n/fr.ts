@@ -179,7 +179,8 @@ const fr: Dict = {
   simNowTip:
     "Conserve les résultats réels obtenus jusqu'ici, puis simule tout le reste à partir de maintenant. Le score provisoire des matchs en cours n'est pas pris en compte : ces matchs sont entièrement simulés. Une fois la finale jouée, cette option est désactivée.",
   simOpenerTip: "Resimuler tous les matchs, à partir du match d'ouverture.",
-  simDateTip: 'Simuler tous les matchs joués après cette date (à votre heure locale).',
+  simDateTip:
+    'Simuler tous les matchs joués à partir de cette date (celle-ci incluse) (à votre heure locale).',
   simMatch: 'Match',
   simMatchTip: 'Simuler tous les matchs à partir de ce numéro de match (celui-ci inclus).',
   fcTitle: 'Probabilités de résultats ({n} simulations)',

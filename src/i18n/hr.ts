@@ -179,7 +179,7 @@ const hr: Dict = {
   simNowTip:
     'Zadrži dosadašnje stvarne rezultate, a sve od sada simuliraj. Privremeni rezultati utakmica koje su još u tijeku ne uzimaju se u obzir. Kad se odigra finale, ova je opcija onemogućena.',
   simOpenerTip: 'Ponovno simuliraj sve utakmice, počevši od uvodne.',
-  simDateTip: 'Simuliraj sve utakmice odigrane nakon ovog datuma (vaše lokalno vrijeme).',
+  simDateTip: 'Simuliraj sve utakmice od ovog datuma nadalje (uključujući njega) (vaše lokalno vrijeme).',
   simMatch: 'Utakmica',
   simMatchTip: 'Simuliraj sve utakmice od ovog rednog broja nadalje (uključujući nju).',
   fcTitle: 'Vjerojatnosti ishoda ({n} simulacija)',
