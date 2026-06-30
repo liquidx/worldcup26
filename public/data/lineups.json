@@ -52015,8 +52015,13 @@
      "player": "448152",
      "minute": "72'",
      "type": 2,
-     "period": 5,
-     "sec": 1583
+     "period": 5
+    },
+    {
+     "player": "448149",
+     "minute": "",
+     "type": 1,
+     "period": 11
     }
    ],
    "bookings": [],
@@ -52401,8 +52406,8 @@
     }
    ]
   },
-  "matchTime": "116'",
-  "period": 9,
+  "matchTime": null,
+  "period": 11,
   "final": false,
   "secTried": true
  }
