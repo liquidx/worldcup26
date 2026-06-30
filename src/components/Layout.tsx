@@ -19,7 +19,6 @@ const NAV: { to: string; key: string; icon: IconName }[] = [
   { to: '/watch', key: 'navWatch', icon: 'tv' },
   { to: '/stats', key: 'navStats', icon: 'chart' },
   { to: '/forecast', key: 'navSim', icon: 'target' },
-  { to: '/ai-simulator', key: 'navAiSim', icon: 'bolt' },
   { to: '/settings', key: 'navSettings', icon: 'gear' },
 ]
 
@@ -183,7 +182,7 @@ export default function Layout() {
           </nav>
           <a
             className="gh-link"
-            href="https://github.com/CarJoshEly/26worldcup"
+            href="https://github.com/26worldcup/26worldcup.github.io"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
