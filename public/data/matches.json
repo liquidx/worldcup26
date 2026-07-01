@@ -6098,7 +6098,11 @@
    "venueId": "400222084",
    "status": "scheduled",
    "time": null,
-   "home": null,
+   "home": {
+    "code": "MEX",
+    "score": null,
+    "pen": null
+   },
    "away": null,
    "phA": "W79",
    "phB": "W80",
