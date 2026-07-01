@@ -55478,7 +55478,22 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "358112",
+     "minute": "86'",
+     "type": 2,
+     "period": 5,
+     "sec": 2434
+    },
+    {
+     "player": "401444",
+     "minute": "89'",
+     "type": 2,
+     "period": 5,
+     "sec": 2592
+    }
+   ],
    "bookings": [
     {
      "player": "448360",
@@ -55510,6 +55525,12 @@
      "off": "448343",
      "on": "497902",
      "minute": "63'",
+     "period": 5
+    },
+    {
+     "off": "448373",
+     "on": "358122",
+     "minute": "78'",
      "period": 5
     }
    ]
@@ -55840,7 +55861,7 @@
     }
    ]
   },
-  "matchTime": "75'",
+  "matchTime": "89'",
   "period": 5,
   "final": false,
   "secTried": true
