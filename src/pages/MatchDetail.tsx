@@ -14,6 +14,7 @@ import {
   fmtTemp,
   hostSide,
   localizedNote,
+  matchResult,
   placeholderLabel,
   STAGE_LABEL_KEY,
   wmoEmoji,
@@ -244,6 +245,10 @@ export default function MatchDetail() {
   const tz = displayTz(settings, venue)
   const w = weather[m.id]
   const showScore = m.status === 'live' || m.status === 'finished'
+  // extra-time / shootout breakdown, so a result decided after 90' shows the
+  // 90-minute score too (matching the forecast sample run and match simulator)
+  const et = matchResult(m, lu)
+  const showAet = m.status === 'finished' && et.aet
   const homeLabel = m.home
     ? pick(teams[m.home.code]?.name, m.home.code)
     : m.phA
@@ -301,10 +306,12 @@ export default function MatchDetail() {
               <>
                 <div className="md-score-big tnum">
                   {m.home.score ?? '–'} : {m.away.score ?? '–'}
+                  {showAet && <span className="md-aet">{t('simAet')}</span>}
                 </div>
-                {(m.home.pen ?? 0) + (m.away.pen ?? 0) > 0 && (
-                  <div className="md-pens small muted">
-                    {t('pens')} {m.home.pen ?? 0}–{m.away.pen ?? 0}
+                {showAet && (et.reg || et.pens) && (
+                  <div className="md-score-sub small muted tnum">
+                    {et.reg && `90′ ${et.reg.h}–${et.reg.a}`}
+                    {et.pens && `${et.reg ? ' · ' : ''}${t('pens')} ${et.pens.h}–${et.pens.a}`}
                   </div>
                 )}
               </>

@@ -79,7 +79,15 @@ a.md-side {
   font-size: 0.86rem;
   margin-top: 2px;
 }
-.md-pens {
+/* "a.e.t." marker riding the big score, and the 90-minute / shootout sub-line */
+.md-aet {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--accent-text);
+  vertical-align: super;
+  margin-inline-start: 3px;
+}
+.md-score-sub {
   margin-top: 2px;
 }
 
