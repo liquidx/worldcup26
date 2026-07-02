@@ -778,7 +778,6 @@ input.input {
 }
 /* "a.e.t." + 90-minute score for a result decided after extra time */
 .mc-aet {
-  margin-top: 9px;
   text-align: center;
   font-size: 0.72rem;
   font-weight: 600;
