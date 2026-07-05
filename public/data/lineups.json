@@ -61699,7 +61699,15 @@
      "y": null
     }
    ],
-   "goals": [],
+   "goals": [
+    {
+     "player": "314197",
+     "minute": "90'+10'",
+     "type": 1,
+     "period": 5,
+     "sec": 3282
+    }
+   ],
    "bookings": [
     {
      "player": "314197",
@@ -62060,9 +62068,9 @@
     }
    ]
   },
-  "matchTime": "90'+9'",
-  "period": 5,
-  "final": false,
+  "matchTime": "102'",
+  "period": 10,
+  "final": true,
   "secTried": true
  },
  "400021533": {
