@@ -51741,6 +51741,686 @@
   "final": true,
   "secTried": true
  },
+ "400021515": {
+  "home": {
+   "tactics": "3-4-3",
+   "xi": [
+    {
+     "id": "494557",
+     "name": "Patrick BEACH",
+     "number": 18,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448014",
+     "name": "Alessandro CIRCATI",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "423522",
+     "name": "Jordan BOS",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "349342",
+     "name": "Aziz BEHICH",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430442",
+     "name": "Harry SOUTTAR",
+     "number": 19,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "504931",
+     "name": "Lucas HERRINGTON",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430452",
+     "name": "Connor METCALFE",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430440",
+     "name": "Aiden ONEILL",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "355775",
+     "name": "Jackson IRVINE",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "486306",
+     "name": "Nestory IRANKUNDA",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448015",
+     "name": "Cristian VOLPATO",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "339117",
+     "name": "Mathew RYAN",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "331135",
+     "name": "Paul IZZO",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "331149",
+     "name": "Milos DEGENEK",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "339112",
+     "name": "Jason GERIA",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494411",
+     "name": "Kai TREWIN",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "382312",
+     "name": "Cameron BURGESS",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430437",
+     "name": "Cameron DEVLIN",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "498421",
+     "name": "Paul OKON-ENGSTLER",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "498806",
+     "name": "Mohamed TOURE",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "404319",
+     "name": "Ajdin HRUSTIC",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "406606",
+     "name": "Awer MABIL",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "491166",
+     "name": "Nishan VELUPILLAY",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "518200",
+     "name": "Tete YENGI",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "408950",
+     "minute": "55'",
+     "type": 3,
+     "period": 5
+    },
+    {
+     "player": "355775",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "406606",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    }
+   ],
+   "bookings": [],
+   "substitutions": [
+    {
+     "off": "423522",
+     "on": "494411",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "448015",
+     "on": "404319",
+     "minute": "74'",
+     "period": 5
+    },
+    {
+     "off": "486306",
+     "on": "498806",
+     "minute": "74'",
+     "period": 5
+    },
+    {
+     "off": "430452",
+     "on": "406606",
+     "minute": "",
+     "period": 17
+    },
+    {
+     "off": "430440",
+     "on": "498421",
+     "minute": "",
+     "period": 17
+    },
+    {
+     "off": "494557",
+     "on": "339117",
+     "minute": "119'",
+     "period": 9
+    }
+   ]
+  },
+  "away": {
+   "tactics": "4-4-2",
+   "xi": [
+    {
+     "id": "416906",
+     "name": "MOSTAFA SHOUBIR",
+     "number": 23,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "369267",
+     "name": "YASSER IBRAHIM",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "408950",
+     "name": "MOHAMED HANY",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "344661",
+     "name": "RAMY RABIA",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "407022",
+     "name": "KARIM HAFEZ",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430482",
+     "name": "EMAM ASHOUR",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483161",
+     "name": "MOSTAFA ZICO",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "429095",
+     "name": "HAMDY FATHY",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "461788",
+     "name": "MARAWAN ATTIA",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "344654",
+     "name": "MOHAMED SALAH",
+     "number": 10,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430476",
+     "name": "OMAR MARMOUSH",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "408948",
+     "name": "MOHAMED ELSHENAWY",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395860",
+     "name": "MAHDY SOLIMAN",
+     "number": 16,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "512079",
+     "name": "MOHAMED ALAA",
+     "number": 26,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483182",
+     "name": "HOSSAM ABDELMAGUID",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "506124",
+     "name": "TAREK ALAA",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433466",
+     "name": "NABIL DONGA",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483183",
+     "name": "MAHMOUD SABER",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "363863",
+     "name": "TREZEGUET",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "495488",
+     "name": "HAMZA ABDELKARIM",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "424106",
+     "name": "HAISSEM HASSAN",
+     "number": 12,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430465",
+     "name": "IBRAHIM ADEL",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433461",
+     "name": "ZIZO",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "430482",
+     "minute": "13'",
+     "type": 2,
+     "period": 3
+    },
+    {
+     "player": "483183",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "344661",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "344654",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    },
+    {
+     "player": "483182",
+     "minute": "",
+     "type": 1,
+     "period": 11
+    }
+   ],
+   "bookings": [
+    {
+     "player": null,
+     "minute": "91'",
+     "card": 1,
+     "period": 7
+    },
+    {
+     "player": "424106",
+     "minute": "104'",
+     "card": 1,
+     "period": 7
+    },
+    {
+     "player": "369267",
+     "minute": "120'",
+     "card": 1,
+     "period": 9
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "483161",
+     "on": "424106",
+     "minute": "67'",
+     "period": 5
+    },
+    {
+     "off": "429095",
+     "on": "483182",
+     "minute": "67'",
+     "period": 5
+    },
+    {
+     "off": "407022",
+     "on": "363863",
+     "minute": "80'",
+     "period": 5
+    },
+    {
+     "off": "430476",
+     "on": "495488",
+     "minute": "",
+     "period": 8
+    },
+    {
+     "off": "461788",
+     "on": "483183",
+     "minute": "120'+1'",
+     "period": 9
+    }
+   ]
+  },
+  "matchTime": "129'",
+  "period": 10,
+  "final": true,
+  "secTried": true
+ },
  "400021516": {
   "home": {
    "tactics": "4-1-2-3",
@@ -52435,6 +53115,700 @@
    ]
   },
   "matchTime": "101'",
+  "period": 10,
+  "final": true,
+  "secTried": true
+ },
+ "400021517": {
+  "home": {
+   "tactics": "4-1-2-3",
+   "xi": [
+    {
+     "id": "360642",
+     "name": "Camilo VARGAS",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "431200",
+     "name": "Daniel MUNOZ",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441622",
+     "name": "Jhon LUCUMI",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "463902",
+     "name": "Gustavo PUERTA",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "394500",
+     "name": "Johan MOJICA",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "386013",
+     "name": "Davinson SANCHEZ",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "269058",
+     "name": "James RODRIGUEZ",
+     "number": 10,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "470760",
+     "name": "Jhon ARIAS",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395550",
+     "name": "Jefferson LERMA",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "428886",
+     "name": "Luis DIAZ",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "369530",
+     "name": "Jhon CORDOBA",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "228686",
+     "name": "David OSPINA",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "385998",
+     "name": "Alvaro MONTERO",
+     "number": 24,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "315614",
+     "name": "Santiago ARIAS",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395552",
+     "name": "Yerry MINA",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "476345",
+     "name": "Willer DITTA",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "394376",
+     "name": "Deiver MACHADO",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "470759",
+     "name": "Kevin CASTANO",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "473050",
+     "name": "Richard RIOS",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "425580",
+     "name": "Jorge CARRASCAL",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "489849",
+     "name": "Juan PORTILLA",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "356704",
+     "name": "Juan QUINTERO",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "418881",
+     "name": "Cucho HERNANDEZ",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "405755",
+     "name": "Jaminton CAMPAZ",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "428905",
+     "name": "Luis SUAREZ",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "492189",
+     "name": "Andres GOMEZ",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "470760",
+     "minute": "14'",
+     "type": 2,
+     "period": 3,
+     "sec": 830
+    }
+   ],
+   "bookings": [
+    {
+     "player": "470760",
+     "minute": "12'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "473050",
+     "minute": "78'",
+     "card": 1,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "369530",
+     "on": "428905",
+     "minute": "8'",
+     "period": 3
+    },
+    {
+     "off": "269058",
+     "on": "473050",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "470760",
+     "on": "356704",
+     "minute": "72'",
+     "period": 5
+    },
+    {
+     "off": "428886",
+     "on": "405755",
+     "minute": "90'",
+     "period": 5
+    }
+   ]
+  },
+  "away": {
+   "tactics": "4-1-2-3",
+   "xi": [
+    {
+     "id": "386473",
+     "name": "Lawrence Ati ZIGI",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441333",
+     "name": "Gideon MENSAH",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "486150",
+     "name": "Jerome OPOKU",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "520037",
+     "name": "Derrick LUCKASSEN",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "520039",
+     "name": "Marvin SENAYA",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "506279",
+     "name": "Caleb YIRENKYI",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "369089",
+     "name": "Thomas PARTEY",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "507253",
+     "name": "Kwasi SIBO",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448531",
+     "name": "Antoine SEMENYO",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "353235",
+     "name": "Jordan AYEW",
+     "number": 9,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "411376",
+     "name": "Inaki WILLIAMS",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "506277",
+     "name": "Joseph ANANG",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494349",
+     "name": "Benjamin ASARE",
+     "number": 16,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448522",
+     "name": "Alidu SEIDU",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494351",
+     "name": "Jonas ADJETEY",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441336",
+     "name": "Abdul MUMIN",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "367536",
+     "name": "Baba RAHMAN",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "511022",
+     "name": "Kojo Peprah OPPONG",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441341",
+     "name": "Elisha OWUSU",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "523173",
+     "name": "Augustine BOAKYE",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441342",
+     "name": "Abdul FATAWU",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "486213",
+     "name": "Brandon THOMAS-ASANTE",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494350",
+     "name": "Christopher BONSU BAAH",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448523",
+     "name": "Kamaldeen SULEMANA",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448525",
+     "name": "Ernest NUAMAH",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "514401",
+     "name": "Prince ADU",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [],
+   "bookings": [
+    {
+     "player": "506279",
+     "minute": "49'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "441342",
+     "minute": "66'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "448522",
+     "minute": "76'",
+     "card": 1,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "520039",
+     "on": "448522",
+     "minute": "13'",
+     "period": 3
+    },
+    {
+     "off": "411376",
+     "on": "441342",
+     "minute": "62'",
+     "period": 5
+    },
+    {
+     "off": "507253",
+     "on": "441341",
+     "minute": "62'",
+     "period": 5
+    },
+    {
+     "off": "506279",
+     "on": "514401",
+     "minute": "79'",
+     "period": 5
+    },
+    {
+     "off": "353235",
+     "on": "448525",
+     "minute": "79'",
+     "period": 5
+    }
+   ]
+  },
+  "matchTime": "98'",
   "period": 10,
   "final": true,
   "secTried": true
@@ -54471,6 +55845,723 @@
    ]
   },
   "matchTime": "99'",
+  "period": 10,
+  "final": true,
+  "secTried": true
+ },
+ "400021521": {
+  "home": {
+   "tactics": "4-4-2",
+   "xi": [
+    {
+     "id": "308300",
+     "name": "Emiliano MARTINEZ",
+     "number": 23,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "402921",
+     "name": "Lisandro MARTINEZ",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "431196",
+     "name": "Cristian ROMERO",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "418963",
+     "name": "Facundo MEDINA",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "402925",
+     "name": "Nahuel MOLINA",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "428882",
+     "name": "Rodrigo DE PAUL",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430628",
+     "name": "Alexis MAC ALLISTER",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448252",
+     "name": "Enzo FERNANDEZ",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "229397",
+     "name": "Lionel MESSI",
+     "number": 10,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "418975",
+     "name": "Thiago ALMADA",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "402920",
+     "name": "Lautaro MARTINEZ",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "430624",
+     "name": "Juan MUSSO",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "394824",
+     "name": "Geronimo RULLI",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "402934",
+     "name": "Marcos SENESI",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "308322",
+     "name": "Nicolas TAGLIAFICO",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "402926",
+     "name": "Gonzalo MONTIEL",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "310116",
+     "name": "Nicolas OTAMENDI",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "332847",
+     "name": "Leandro PAREDES",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "463661",
+     "name": "Valentin BARCO",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395414",
+     "name": "Giovani LO CELSO",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "389485",
+     "name": "Exequiel PALACIOS",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430631",
+     "name": "Nico GONZALEZ",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "416081",
+     "name": "Julian ALVAREZ",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485595",
+     "name": "Giuliano SIMEONE",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441422",
+     "name": "Nico PAZ",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "495054",
+     "name": "Jose Manuel LOPEZ",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "229397",
+     "minute": "29'",
+     "type": 2,
+     "period": 3,
+     "sec": 1683
+    },
+    {
+     "player": "402921",
+     "minute": "92'",
+     "type": 2,
+     "period": 7,
+     "sec": 118
+    },
+    {
+     "player": "409241",
+     "minute": "111'",
+     "type": 3,
+     "period": 9,
+     "sec": 330
+    }
+   ],
+   "bookings": [
+    {
+     "player": "402926",
+     "minute": "115'",
+     "card": 1,
+     "period": 9
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "418975",
+     "on": "430631",
+     "minute": "63'",
+     "period": 5
+    },
+    {
+     "off": "402920",
+     "on": "416081",
+     "minute": "63'",
+     "period": 5
+    },
+    {
+     "off": "428882",
+     "on": "332847",
+     "minute": "84'",
+     "period": 5
+    },
+    {
+     "off": "418963",
+     "on": "308322",
+     "minute": "85'",
+     "period": 5
+    },
+    {
+     "off": "402925",
+     "on": "402926",
+     "minute": "104'",
+     "period": 7
+    }
+   ]
+  },
+  "away": {
+   "tactics": "4-1-4-1",
+   "xi": [
+    {
+     "id": "364752",
+     "name": "VOZINHA",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "409241",
+     "name": "DINEY BORGES",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477770",
+     "name": "PICO LOPES",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477832",
+     "name": "SIDNY LOPES CABRAL",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477847",
+     "name": "STEVEN MOREIRA",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477852",
+     "name": "KEVIN PINA",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477856",
+     "name": "JOVANE CABRAL",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477827",
+     "name": "DEROY DUARTE",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "480966",
+     "name": "LAROS DUARTE",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "401893",
+     "name": "NUNO DA COSTA",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "355642",
+     "name": "RYAN MENDES",
+     "number": 20,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "407114",
+     "name": "MARCIO ROSA",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "406281",
+     "name": "CJ DOS SANTOS",
+     "number": 23,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "297266",
+     "name": "STOPIRA",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477831",
+     "name": "LOGAN COSTA",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "482783",
+     "name": "WAGNER PINA",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "482780",
+     "name": "KELVIN PIRES",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477855",
+     "name": "JOAO PAULO",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "401894",
+     "name": "JAMIRO MONTEIRO",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "373344",
+     "name": "GARRY RODRIGUES",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494313",
+     "name": "YANNICK SEMEDO",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433724",
+     "name": "WILLY SEMEDO",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494314",
+     "name": "TELMO ARCANJO",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477849",
+     "name": "HELIO VARELA",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477862",
+     "name": "GILSON BENCHIMOL",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "482782",
+     "name": "DAILON LIVRAMENTO",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "477827",
+     "minute": "59'",
+     "type": 2,
+     "period": 5,
+     "sec": 820
+    },
+    {
+     "player": "477832",
+     "minute": "103'",
+     "type": 2,
+     "period": 7,
+     "sec": 762
+    }
+   ],
+   "bookings": [
+    {
+     "player": "477852",
+     "minute": "68'",
+     "card": 1,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "401893",
+     "on": "482782",
+     "minute": "67'",
+     "period": 5
+    },
+    {
+     "off": "480966",
+     "on": "401894",
+     "minute": "67'",
+     "period": 5
+    },
+    {
+     "off": "477856",
+     "on": "477849",
+     "minute": "80'",
+     "period": 5
+    },
+    {
+     "off": "355642",
+     "on": "433724",
+     "minute": "80'",
+     "period": 5
+    },
+    {
+     "off": "477852",
+     "on": "477862",
+     "minute": "100'",
+     "period": 7
+    },
+    {
+     "off": "477827",
+     "on": "494313",
+     "minute": "100'",
+     "period": 7
+    }
+   ]
+  },
+  "matchTime": "124'",
   "period": 10,
   "final": true,
   "secTried": true
@@ -57930,24 +60021,3439 @@
  },
  "400021527": {
   "home": {
-   "tactics": null,
-   "xi": [],
-   "subs": [],
-   "goals": [],
+   "tactics": "4-2-3-1",
+   "xi": [
+    {
+     "id": "448107",
+     "name": "Gregor KOBEL",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "398509",
+     "name": "Nico ELVEDI",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "405178",
+     "name": "Manuel AKANJI",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "313559",
+     "name": "Ricardo RODRIGUEZ",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "401448",
+     "name": "Denis ZAKARIA",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "402021",
+     "name": "Remo FREULER",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "502727",
+     "name": "Johan MANZAMBI",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "311558",
+     "name": "Granit XHAKA",
+     "number": 10,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "393480",
+     "name": "Breel EMBOLO",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448114",
+     "name": "Dan NDOYE",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448131",
+     "name": "Ruben VARGAS",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "402022",
+     "name": "Yvon MVOGO",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "484862",
+     "name": "Marvin KELLER",
+     "number": 21,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "493221",
+     "name": "Miro MUHEIM",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "356412",
+     "name": "Silvan WIDMER",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448136",
+     "name": "Eray COEMERT",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "484864",
+     "name": "Aurele AMENDA",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448120",
+     "name": "Ardon JASHARI",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "411226",
+     "name": "Djibril SOW",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433147",
+     "name": "Michel AEBISCHER",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448103",
+     "name": "Fabian RIEDER",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448124",
+     "name": "Christian FASSNACHT",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448127",
+     "name": "Noah OKAFOR",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448112",
+     "name": "Zeki AMDOUNI",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448104",
+     "name": "Cedric ITTEN",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "393480",
+     "minute": "10'",
+     "type": 2,
+     "period": 3,
+     "sec": 600
+    },
+    {
+     "player": "448114",
+     "minute": "46'",
+     "type": 2,
+     "period": 5,
+     "sec": 46
+    }
+   ],
    "bookings": [],
-   "substitutions": []
+   "substitutions": [
+    {
+     "off": "448131",
+     "on": "448103",
+     "minute": "70'",
+     "period": 5
+    },
+    {
+     "off": "502727",
+     "on": "448127",
+     "minute": "70'",
+     "period": 5
+    },
+    {
+     "off": "393480",
+     "on": "448112",
+     "minute": "82'",
+     "period": 5
+    },
+    {
+     "off": "448114",
+     "on": "433147",
+     "minute": "87'",
+     "period": 5
+    },
+    {
+     "off": "401448",
+     "on": "356412",
+     "minute": "87'",
+     "period": 5
+    }
+   ]
   },
   "away": {
-   "tactics": null,
-   "xi": [],
-   "subs": [],
+   "tactics": "4-1-2-3",
+   "xi": [
+    {
+     "id": "389879",
+     "name": "Luca ZIDANE",
+     "number": 23,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "376285",
+     "name": "Aissa MANDI",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "431858",
+     "name": "Rayan AIT-NOURI",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "511009",
+     "name": "Rafik BELGHALI",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395113",
+     "name": "Ramy BENSEBAINI",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433679",
+     "name": "Ramiz ZERROUKI",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430698",
+     "name": "Houssem AOUAR",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477795",
+     "name": "Fares CHAIBI",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "379939",
+     "name": "Nabil BENTALEB",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494291",
+     "name": "Ibrahim MAZA",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "379942",
+     "name": "Riyad MAHREZ",
+     "number": 7,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "520070",
+     "name": "Melvin MASTIL",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477817",
+     "name": "Oussama BENBOT",
+     "number": 16,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "512127",
+     "name": "Achref ABADA",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433600",
+     "name": "Mohamed Amine TOUGAI",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "480983",
+     "name": "Zineddine BELAID",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "482869",
+     "name": "Jaouen HADJAM",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "511010",
+     "name": "Samir CHERGUI",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441350",
+     "name": "Hicham BOUDAOUI",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433631",
+     "name": "Yassine TITRAOUI",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "405877",
+     "name": "Amine GOUIRI",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "482874",
+     "name": "Anis HADJ MOUSSA",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "512132",
+     "name": "Adil BOULBINA",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "520072",
+     "name": "Fares GHEDJEMIS",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
    "goals": [],
-   "bookings": [],
-   "substitutions": []
+   "bookings": [
+    {
+     "player": "477795",
+     "minute": "36'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "441350",
+     "minute": "72'",
+     "card": 1,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "430698",
+     "on": "482869",
+     "minute": "58'",
+     "period": 5
+    },
+    {
+     "off": "433679",
+     "on": "405877",
+     "minute": "58'",
+     "period": 5
+    },
+    {
+     "off": "379939",
+     "on": "441350",
+     "minute": "71'",
+     "period": 5
+    },
+    {
+     "off": "379942",
+     "on": "482874",
+     "minute": "71'",
+     "period": 5
+    },
+    {
+     "off": "511009",
+     "on": "512132",
+     "minute": "82'",
+     "period": 5
+    }
+   ]
   },
-  "matchTime": "0'",
-  "period": 0,
-  "final": false,
+  "matchTime": "97'",
+  "period": 10,
+  "final": true,
+  "secTried": true
+ },
+ "400021530": {
+  "home": {
+   "tactics": "4-4-2",
+   "xi": [
+    {
+     "id": "331732",
+     "name": "Maxime CREPEAU",
+     "number": 16,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441252",
+     "name": "Alistair JOHNSTON",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "480322",
+     "name": "Luc DE FOUGEROLLES",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "466585",
+     "name": "Moise BOMBITO",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "431696",
+     "name": "Richie LARYEA",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485064",
+     "name": "Niko SIGUR",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433635",
+     "name": "Stephen EUSTAQUIO",
+     "number": 7,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441257",
+     "name": "Jonathan DAVID",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "486929",
+     "name": "Tani OLUWASEYI",
+     "number": 12,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430138",
+     "name": "Tajon BUCHANAN",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "466687",
+     "name": "Ali AHMED",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "441255",
+     "name": "Dayne ST. CLAIR",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "463817",
+     "name": "Owen GOODMAN",
+     "number": 18,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "514070",
+     "name": "Alfie JONES",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448402",
+     "name": "Joel WATERMAN",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "371958",
+     "name": "Derek CORNELIUS",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "412144",
+     "name": "Alphonso DAVIES",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448390",
+     "name": "Mathieu CHOINIERE",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441259",
+     "name": "Liam MILLAR",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448411",
+     "name": "Jacob SHAFFELBURG",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "370986",
+     "name": "Jonathan OSORIO",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "423941",
+     "name": "Nathan SALIBA",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "390670",
+     "name": "Cyle LARIN",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "493970",
+     "name": "Promise DAVID",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "423933",
+     "name": "Jayden NELSON",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [],
+   "bookings": [
+    {
+     "player": "431696",
+     "minute": "40'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "441257",
+     "minute": "43'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "480322",
+     "minute": "49'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "390670",
+     "minute": "67'",
+     "card": 1,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "486929",
+     "on": "390670",
+     "minute": "63'",
+     "period": 5
+    },
+    {
+     "off": "466687",
+     "on": "493970",
+     "minute": "78'",
+     "period": 5
+    },
+    {
+     "off": "431696",
+     "on": "448411",
+     "minute": "78'",
+     "period": 5
+    },
+    {
+     "off": "430138",
+     "on": "423933",
+     "minute": "87'",
+     "period": 5
+    },
+    {
+     "off": "485064",
+     "on": "370986",
+     "minute": "87'",
+     "period": 5
+    }
+   ]
+  },
+  "away": {
+   "tactics": "4-2-3-1",
+   "xi": [
+    {
+     "id": "356956",
+     "name": "Yassine BOUNOU",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "400721",
+     "name": "Achraf HAKIMI",
+     "number": 2,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "411680",
+     "name": "Noussair MAZRAOUI",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "403083",
+     "name": "Issa DIOP",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485767",
+     "name": "Redouane HALHAL",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485760",
+     "name": "Ayyoub BOUADDI",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441307",
+     "name": "Azzedine OUNAHI",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448598",
+     "name": "Ismael SAIBARI",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448612",
+     "name": "Bilal EL KHANNOUSS",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485740",
+     "name": "Neil EL AYNAOUI",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430740",
+     "name": "Brahim DIAZ",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "395755",
+     "name": "Munir EL KAJOUI",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "371553",
+     "name": "Ahmed Reda TAGNAOUTI",
+     "number": 22,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395760",
+     "name": "Marwane SAADANE",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485756",
+     "name": "Zakaria EL OUAHDI",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448607",
+     "name": "Chadi RIAD",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494742",
+     "name": "Youssef BELAMMARI",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "424071",
+     "name": "Anass SALAH EDDINE",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "372266",
+     "name": "Sofyan AMRABAT",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494293",
+     "name": "Chemsdine TALBI",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "505097",
+     "name": "Samir EL MOURABET",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "505112",
+     "name": "Gessime YASSINE",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433426",
+     "name": "Soufiane RAHIMI",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "524320",
+     "name": "Amine SBAI",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "411678",
+     "name": "Ayoub EL KAABI",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "523288",
+     "name": "Ayoube AMAIMOUNI",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "441307",
+     "minute": "50'",
+     "type": 2,
+     "period": 5,
+     "sec": 258
+    },
+    {
+     "player": "441307",
+     "minute": "82'",
+     "type": 2,
+     "period": 5,
+     "sec": 2178
+    },
+    {
+     "player": "433426",
+     "minute": "90'+8'",
+     "type": 2,
+     "period": 5,
+     "sec": 3157
+    }
+   ],
+   "bookings": [
+    {
+     "player": "485767",
+     "minute": "20'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "400721",
+     "minute": "40'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "441307",
+     "minute": "45'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "448612",
+     "minute": "45'+6'",
+     "card": 1,
+     "period": 3
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "448598",
+     "on": "433426",
+     "minute": "22'",
+     "period": 3
+    },
+    {
+     "off": "485760",
+     "on": "372266",
+     "minute": "63'",
+     "period": 5
+    },
+    {
+     "off": "448612",
+     "on": "494293",
+     "minute": "63'",
+     "period": 5
+    },
+    {
+     "off": "403083",
+     "on": "395760",
+     "minute": "87'",
+     "period": 5
+    },
+    {
+     "off": "441307",
+     "on": "505097",
+     "minute": "87'",
+     "period": 5
+    }
+   ]
+  },
+  "matchTime": "100'",
+  "period": 10,
+  "final": true,
+  "secTried": true
+ },
+ "400021531": {
+  "home": {
+   "tactics": "4-1-2-3",
+   "xi": [
+    {
+     "id": "485070",
+     "name": "Raul RANGEL",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "403596",
+     "name": "Jorge SANCHEZ",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395516",
+     "name": "Cesar MONTES",
+     "number": 3,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "425701",
+     "name": "Johan VASQUEZ",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "402772",
+     "name": "Jesus GALLARDO",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "419518",
+     "name": "Erik LIRA",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430763",
+     "name": "Luis ROMO",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "500037",
+     "name": "Gilberto MORA",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "356731",
+     "name": "Raul JIMENEZ",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "429157",
+     "name": "Julian QUINONES",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "403585",
+     "name": "Roberto ALVARADO",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "441260",
+     "name": "Carlos ACEVEDO",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "215285",
+     "name": "Guillermo OCHOA",
+     "number": 13,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "400634",
+     "name": "Edson ALVAREZ",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441261",
+     "name": "Israel REYES",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "500038",
+     "name": "Mateo CHAVEZ",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "416576",
+     "name": "Alvaro FIDALGO",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "372090",
+     "name": "Orbelin PINEDA",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "461177",
+     "name": "Obed VARGAS",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448051",
+     "name": "Luis CHAVEZ",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "464533",
+     "name": "Brian GUTIERREZ",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430766",
+     "name": "Alexis VEGA",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430759",
+     "name": "Santiago GIMENEZ",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "514336",
+     "name": "Armando GONZALEZ",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "406135",
+     "name": "Cesar HUERTA",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "386339",
+     "name": "Guillermo MARTINEZ",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "429157",
+     "minute": "42'",
+     "type": 2,
+     "period": 3,
+     "sec": 2508
+    },
+    {
+     "player": "356731",
+     "minute": "69'",
+     "type": 1,
+     "period": 5,
+     "sec": 1415
+    }
+   ],
+   "bookings": [
+    {
+     "player": "403596",
+     "minute": "71'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "425701",
+     "minute": "90'+8'",
+     "card": 1,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "395516",
+     "on": "400634",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "500037",
+     "on": "430759",
+     "minute": "61'",
+     "period": 5
+    },
+    {
+     "off": "430763",
+     "on": "464533",
+     "minute": "61'",
+     "period": 5
+    },
+    {
+     "off": "403596",
+     "on": "416576",
+     "minute": "79'",
+     "period": 5
+    },
+    {
+     "off": "429157",
+     "on": "386339",
+     "minute": "81'",
+     "period": 5
+    }
+   ]
+  },
+  "away": {
+   "tactics": "4-2-3-1",
+   "xi": [
+    {
+     "id": "336022",
+     "name": "Jordan PICKFORD",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "403049",
+     "name": "Ezri KONSA",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "463780",
+     "name": "Nico OREILLY",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "405841",
+     "name": "Marc GUEHI",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "463809",
+     "name": "Jarell QUANSAH",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433097",
+     "name": "Declan RICE",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "481610",
+     "name": "Elliot ANDERSON",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448202",
+     "name": "Jude BELLINGHAM",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448196",
+     "name": "Bukayo SAKA",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "369419",
+     "name": "Harry KANE",
+     "number": 9,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448189",
+     "name": "Anthony GORDON",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "403046",
+     "name": "Dean HENDERSON",
+     "number": 13,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485080",
+     "name": "James TRAFFORD",
+     "number": 23,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "369434",
+     "name": "John STONES",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "439691",
+     "name": "Trevoh CHALOBAH",
+     "number": 12,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494345",
+     "name": "Dan BURN",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "439641",
+     "name": "Reece JAMES",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "506329",
+     "name": "Djed SPENCE",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "356189",
+     "name": "Jordan HENDERSON",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "482621",
+     "name": "Kobbie MAINOO",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "492716",
+     "name": "Morgan ROGERS",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "473113",
+     "name": "Eberechi EZE",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "401470",
+     "name": "Marcus RASHFORD",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448203",
+     "name": "Ollie WATKINS",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "489732",
+     "name": "Noni MADUEKE",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448198",
+     "name": "Ivan TONEY",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "448202",
+     "minute": "36'",
+     "type": 2,
+     "period": 3,
+     "sec": 2155
+    },
+    {
+     "player": "448202",
+     "minute": "38'",
+     "type": 2,
+     "period": 3,
+     "sec": 2253
+    },
+    {
+     "player": "369419",
+     "minute": "60'",
+     "type": 1,
+     "period": 5,
+     "sec": 891
+    }
+   ],
+   "bookings": [
+    {
+     "player": "433097",
+     "minute": "1'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "463809",
+     "minute": "54'",
+     "card": 2,
+     "period": 5
+    },
+    {
+     "player": "405841",
+     "minute": "68'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "463780",
+     "minute": "72'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "356189",
+     "minute": "90'+8'",
+     "card": 1,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "448196",
+     "on": "369434",
+     "minute": "57'",
+     "period": 5
+    },
+    {
+     "off": "481610",
+     "on": "494345",
+     "minute": "75'",
+     "period": 5
+    },
+    {
+     "off": "463780",
+     "on": "506329",
+     "minute": "75'",
+     "period": 5
+    },
+    {
+     "off": "369419",
+     "on": "492716",
+     "minute": "90'",
+     "period": 5
+    }
+   ]
+  },
+  "matchTime": "103'",
+  "period": 10,
+  "final": true,
+  "secTried": true
+ },
+ "400021532": {
+  "home": {
+   "tactics": "4-1-2-3",
+   "xi": [
+    {
+     "id": "308370",
+     "name": "ALISSON",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430601",
+     "name": "GABRIEL MAGALHAES",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "332946",
+     "name": "MARQUINHOS",
+     "number": 4,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "335656",
+     "name": "DANILO",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "367981",
+     "name": "DOUGLAS SANTOS",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "308386",
+     "name": "CASEMIRO",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430605",
+     "name": "BRUNO GUIMARAES",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "405742",
+     "name": "VINICIUS JUNIOR",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430609",
+     "name": "MATHEUS CUNHA",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430597",
+     "name": "GABRIEL MARTINELLI",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "475036",
+     "name": "RAYAN",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "396315",
+     "name": "WEVERTON",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "395427",
+     "name": "EDERSON",
+     "number": 23,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "335658",
+     "name": "ALEX SANDRO",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "431889",
+     "name": "BREMER",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "371956",
+     "name": "LEO PEREIRA",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430594",
+     "name": "ROGER IBANEZ",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485069",
+     "name": "EDERSON SILVA",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "394456",
+     "name": "FABINHO",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "429392",
+     "name": "DANILO SANTOS",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "314197",
+     "name": "NEYMAR JR",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433872",
+     "name": "RAPHINHA",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "463746",
+     "name": "ENDRICK",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "448420",
+     "name": "LUIZ HENRIQUE",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "519836",
+     "name": "IGOR THIAGO",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "314197",
+     "minute": "90'+10'",
+     "type": 1,
+     "period": 5,
+     "sec": 3282
+    }
+   ],
+   "bookings": [
+    {
+     "player": "314197",
+     "minute": "90'+6'",
+     "card": 1,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "430609",
+     "on": "463746",
+     "minute": "58'",
+     "period": 5
+    },
+    {
+     "off": "430597",
+     "on": "314197",
+     "minute": "67'",
+     "period": 5
+    },
+    {
+     "off": "475036",
+     "on": "429392",
+     "minute": "67'",
+     "period": 5
+    },
+    {
+     "off": "430605",
+     "on": "485069",
+     "minute": "79'",
+     "period": 5
+    }
+   ]
+  },
+  "away": {
+   "tactics": "4-1-2-3",
+   "xi": [
+    {
+     "id": "373235",
+     "name": "Orjan NYLAND",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483516",
+     "name": "Kristoffer AJER",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483505",
+     "name": "David MOLLER WOLFE",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "491244",
+     "name": "Torbjorn HEGGEM",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483442",
+     "name": "Patrick BERG",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "404645",
+     "name": "Sander BERGE",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "400716",
+     "name": "Martin ODEGAARD",
+     "number": 10,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "398588",
+     "name": "Alexander SORLOTH",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "419652",
+     "name": "Erling HAALAND",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483448",
+     "name": "Antonio NUSA",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483496",
+     "name": "Julian RYERSON",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "514479",
+     "name": "Sander TANGVIK",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483535",
+     "name": "Egil SELVIK",
+     "number": 13,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "419672",
+     "name": "Leo OSTIGARD",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483530",
+     "name": "Fredrik Andre BJORKAN",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "489696",
+     "name": "Sondre LANGAS",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "520112",
+     "name": "Henrik FALCHENER",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "433067",
+     "name": "Morten THORSBY",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483497",
+     "name": "Fredrik AURSNES",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "419681",
+     "name": "Kristian THORSTVEDT",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494627",
+     "name": "Thelo AASGAARD",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "494626",
+     "name": "Andreas SCHJELDERUP",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "477470",
+     "name": "Oscar BOBB",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "419654",
+     "name": "Jens Petter HAUGE",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "419662",
+     "name": "Jorgen STRAND LARSEN",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "419652",
+     "minute": "79'",
+     "type": 2,
+     "period": 5,
+     "sec": 2038
+    },
+    {
+     "player": "419652",
+     "minute": "90'",
+     "type": 2,
+     "period": 5,
+     "sec": 2649
+    }
+   ],
+   "bookings": [],
+   "substitutions": [
+    {
+     "off": "483448",
+     "on": "494626",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "398588",
+     "on": "477470",
+     "minute": "",
+     "period": 4
+    },
+    {
+     "off": "483496",
+     "on": "483497",
+     "minute": "63'",
+     "period": 5
+    },
+    {
+     "off": "483505",
+     "on": "419672",
+     "minute": "90'+5'",
+     "period": 5
+    }
+   ]
+  },
+  "matchTime": "102'",
+  "period": 10,
+  "final": true,
+  "secTried": true
+ },
+ "400021533": {
+  "home": {
+   "tactics": "5-4-1",
+   "xi": [
+    {
+     "id": "494531",
+     "name": "Orlando GILL",
+     "number": 12,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "486875",
+     "name": "Gustavo VELAZQUEZ",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "431202",
+     "name": "Omar ALDERETE",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "479601",
+     "name": "Juan Jose CACERES",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "369749",
+     "name": "Junior ALONSO",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "369744",
+     "name": "Gustavo GOMEZ",
+     "number": 15,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "463128",
+     "name": "Diego GOMEZ",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "369761",
+     "name": "Miguel ALMIRON",
+     "number": 10,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "385306",
+     "name": "Andres CUBAS",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "424422",
+     "name": "Matias GALARZA",
+     "number": 23,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "441234",
+     "name": "Julio ENCISO",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "318647",
+     "name": "Gatito FERNANDEZ",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "447991",
+     "name": "Gaston OLVEIRA",
+     "number": 22,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "394829",
+     "name": "Fabian BALBUENA",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "520066",
+     "name": "Jose CANALE",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "505495",
+     "name": "Alexandro MAIDANA",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "463125",
+     "name": "Ramon SOSA",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "495046",
+     "name": "MAURICIO",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "476348",
+     "name": "Damian BOBADILLA",
+     "number": 16,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "406205",
+     "name": "Braian OJEDA",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485804",
+     "name": "Gustavo CABALLERO",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "369768",
+     "name": "Antonio SANABRIA",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "386458",
+     "name": "Alejandro ROMERO GAMARRA",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485802",
+     "name": "Alex ARCE",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "463127",
+     "name": "Gabriel AVALOS",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "489417",
+     "name": "Isidro PITTA",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [],
+   "bookings": [
+    {
+     "player": null,
+     "minute": "90'",
+     "card": 1,
+     "period": 10
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "431202",
+     "on": "520066",
+     "minute": "58'",
+     "period": 5
+    },
+    {
+     "off": "441234",
+     "on": "485804",
+     "minute": "61'",
+     "period": 5
+    },
+    {
+     "off": "369761",
+     "on": "463127",
+     "minute": "71'",
+     "period": 5
+    },
+    {
+     "off": "463128",
+     "on": "495046",
+     "minute": "71'",
+     "period": 5
+    }
+   ]
+  },
+  "away": {
+   "tactics": "4-2-3-1",
+   "xi": [
+    {
+     "id": "448332",
+     "name": "Mike MAIGNAN",
+     "number": 16,
+     "captain": false,
+     "gk": true,
+     "start": true,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "368860",
+     "name": "Lucas DIGNE",
+     "number": 3,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "389876",
+     "name": "Dayot UPAMECANO",
+     "number": 4,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "430707",
+     "name": "Jules KOUNDE",
+     "number": 5,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "419177",
+     "name": "William SALIBA",
+     "number": 17,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485677",
+     "name": "Manu KONE",
+     "number": 6,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "402047",
+     "name": "Adrien RABIOT",
+     "number": 14,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "398680",
+     "name": "Ousmane DEMBELE",
+     "number": 7,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "389867",
+     "name": "Kylian MBAPPE",
+     "number": 10,
+     "captain": true,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485655",
+     "name": "Michael OLISE",
+     "number": 11,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "484860",
+     "name": "Bradley BARCOLA",
+     "number": 12,
+     "captain": false,
+     "gk": false,
+     "start": true,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "subs": [
+    {
+     "id": "483471",
+     "name": "Brice SAMBA",
+     "number": 1,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "464127",
+     "name": "Robin RISSER",
+     "number": 23,
+     "captain": false,
+     "gk": true,
+     "start": false,
+     "fieldPos": 0,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "464055",
+     "name": "Malo GUSTO",
+     "number": 2,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "419166",
+     "name": "Ibrahima KONATE",
+     "number": 15,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "408042",
+     "name": "Theo HERNANDEZ",
+     "number": 19,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "411470",
+     "name": "Lucas HERNANDEZ",
+     "number": 21,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "405881",
+     "name": "Maxence LACROIX",
+     "number": 26,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 1,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "405893",
+     "name": "Aurelien TCHOUAMENI",
+     "number": 8,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "398681",
+     "name": "Ngolo KANTE",
+     "number": 13,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "483549",
+     "name": "Warren ZAIRE-EMERY",
+     "number": 18,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "431861",
+     "name": "Rayan CHERKI",
+     "number": 24,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "485666",
+     "name": "Maghnes AKLIOUCHE",
+     "number": 25,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 2,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "403109",
+     "name": "Marcus THURAM",
+     "number": 9,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "464114",
+     "name": "Desire DOUE",
+     "number": 20,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    },
+    {
+     "id": "403094",
+     "name": "Jean-Philippe MATETA",
+     "number": 22,
+     "captain": false,
+     "gk": false,
+     "start": false,
+     "fieldPos": 3,
+     "x": null,
+     "y": null
+    }
+   ],
+   "goals": [
+    {
+     "player": "389867",
+     "minute": "70'",
+     "type": 1,
+     "period": 5,
+     "sec": 1457
+    }
+   ],
+   "bookings": [
+    {
+     "player": "484860",
+     "minute": "19'",
+     "card": 1,
+     "period": 3
+    },
+    {
+     "player": "485677",
+     "minute": "81'",
+     "card": 1,
+     "period": 5
+    },
+    {
+     "player": "485655",
+     "minute": "90'+7'",
+     "card": 1,
+     "period": 5
+    }
+   ],
+   "substitutions": [
+    {
+     "off": "484860",
+     "on": "464114",
+     "minute": "61'",
+     "period": 5
+    },
+    {
+     "off": "398680",
+     "on": "431861",
+     "minute": "84'",
+     "period": 5
+    }
+   ]
+  },
+  "matchTime": "101'",
+  "period": 10,
+  "final": true,
   "secTried": true
  }
 }

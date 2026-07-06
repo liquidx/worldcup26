@@ -1,38 +1,40 @@
 {
- "updatedAt": "2026-07-03T01:14:53.729Z",
+ "updatedAt": "2026-07-06T10:52:53.746Z",
  "season": "285023",
  "titleOdds": [
   {
+   "c": "FRA",
+   "p": 23.8
+  },
+  {
    "c": "ARG",
-   "p": 22.6
+   "p": 22.1
   },
   {
    "c": "ESP",
-   "p": 19.1
-  },
-  {
-   "c": "FRA",
-   "p": 18.4
+   "p": 17.9
   },
   {
    "c": "ENG",
-   "p": 10.5
+   "p": 16.9
   },
   {
-   "c": "BRA",
-   "p": 7.4
+   "c": "MAR",
+   "p": 5.4
   }
  ],
  "counts": {
   "matches": 104,
   "teams": 48,
   "squads": 48,
-  "weather": 103,
-  "lineups": 85,
+  "weather": 104,
+  "lineups": 92,
   "flags": 179
  },
  "errors": [
-  "geocode New Tecumseth: no usable result — not cached, will retry next run"
+  "geocode New Tecumseth: no usable result — not cached, will retry next run",
+  "timeline 400021515 home: 3 goals vs 1",
+  "timeline 400021515 away: 5 goals vs 1"
  ],
  "sources": [
   "api.fifa.com",
