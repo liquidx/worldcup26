@@ -97,6 +97,24 @@ export default function Matches() {
     }
   }
 
+  // spoiler guard: scores are blurred by default and revealed via the header
+  // toggle. Remembered per session (sessionStorage) so a fresh tab hides again.
+  const [showScores, setShowScoresState] = useState(() => {
+    try {
+      return sessionStorage.getItem('wc2026-show-scores') === '1'
+    } catch {
+      return false
+    }
+  })
+  const setShowScores = (v: boolean) => {
+    setShowScoresState(v)
+    try {
+      sessionStorage.setItem('wc2026-show-scores', v ? '1' : '0')
+    } catch {
+      /* blocked storage */
+    }
+  }
+
   // filters panel: remembered across visits; first visit defaults to open on
   // wide screens, and to open-when-filters-active on narrow ones
   const [open, setOpenState] = useState(() => {
@@ -254,7 +272,7 @@ export default function Matches() {
   }
 
   return (
-    <div className="mxp">
+    <div className={`mxp${showScores ? '' : ' mxp-hide-scores'}`}>
       <div className="mxp-sticky" ref={stickyRef}>
         {meta.titleOdds && meta.titleOdds.length > 0 && (
           <div className={`mxp-odds-wrap${oddsHidden ? '' : ' open'}`}>
@@ -317,6 +335,16 @@ export default function Matches() {
               </button>
             )}
             <span className="muted small tnum">{t('matchesShown', { n: filtered.length })}</span>
+            <button
+              type="button"
+              className={`mxp-scores-toggle${showScores ? ' on' : ''}`}
+              aria-pressed={showScores}
+              title={t(showScores ? 'hideScores' : 'showScores')}
+              aria-label={t(showScores ? 'hideScores' : 'showScores')}
+              onClick={() => setShowScores(!showScores)}
+            >
+              <Icon name={showScores ? 'eye' : 'eyeOff'} size={16} />
+            </button>
           </span>
         </div>
 
