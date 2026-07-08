@@ -1,6 +1,14 @@
 {
  "scorers": [
   {
+   "id": "229397",
+   "name": "Lionel MESSI",
+   "code": "ARG",
+   "no": 10,
+   "goals": 8,
+   "ownGoals": 0
+  },
+  {
    "id": "419652",
    "name": "Erling HAALAND",
    "code": "NOR",
@@ -12,14 +20,6 @@
    "id": "389867",
    "name": "Kylian MBAPPE",
    "code": "FRA",
-   "no": 10,
-   "goals": 7,
-   "ownGoals": 0
-  },
-  {
-   "id": "229397",
-   "name": "Lionel MESSI",
-   "code": "ARG",
    "no": 10,
    "goals": 7,
    "ownGoals": 0
@@ -177,6 +177,14 @@
    "ownGoals": 0
   },
   {
+   "id": "358112",
+   "name": "Romelu LUKAKU",
+   "code": "BEL",
+   "no": 9,
+   "goals": 3,
+   "ownGoals": 0
+  },
+  {
    "id": "441316",
    "name": "Yoane WISSA",
    "code": "COD",
@@ -229,6 +237,14 @@
    "name": "Breel EMBOLO",
    "code": "SUI",
    "no": 7,
+   "goals": 2,
+   "ownGoals": 0
+  },
+  {
+   "id": "448362",
+   "name": "Charles DE KETELAERE",
+   "code": "BEL",
+   "no": 17,
    "goals": 2,
    "ownGoals": 0
   },
@@ -297,33 +313,17 @@
    "ownGoals": 0
   },
   {
-   "id": "299200",
-   "name": "Marko ARNAUTOVIC",
-   "code": "AUT",
-   "no": 7,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "419100",
-   "name": "Maxi ARAUJO",
-   "code": "URU",
-   "no": 20,
-   "goals": 2,
-   "ownGoals": 0
-  },
-  {
-   "id": "402261",
-   "name": "Nicolas PEPE",
-   "code": "CIV",
-   "no": 19,
+   "id": "448214",
+   "name": "Malik TILLMAN",
+   "code": "USA",
+   "no": 17,
    "goals": 2,
    "ownGoals": 0
   }
  ],
  "cards": {
-  "yellow": 242,
-  "red": 13,
+  "yellow": 259,
+  "red": 14,
   "players": [
    {
     "id": "466624",
@@ -462,6 +462,14 @@
     "r": 0
    },
    {
+    "id": "395205",
+    "name": "BERNARDO SILVA",
+    "code": "POR",
+    "no": 10,
+    "y": 2,
+    "r": 0
+   },
+   {
     "id": "506279",
     "name": "Caleb YIRENKYI",
     "code": "GHA",
@@ -476,18 +484,10 @@
     "no": 5,
     "y": 2,
     "r": 0
-   },
-   {
-    "id": "390670",
-    "name": "Cyle LARIN",
-    "code": "CAN",
-    "no": 9,
-    "y": 2,
-    "r": 0
    }
   ]
  },
- "attAvg": 65231,
+ "attAvg": 65204,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -497,12 +497,12 @@
   "as": 1
  },
  "fastestGoal": {
-  "min": 2,
-  "sec": 65,
-  "minute": "2'",
-  "name": "Matias GALARZA",
-  "code": "PAR",
-  "id": "400021460"
+  "min": 0,
+  "sec": 0,
+  "minute": "0'",
+  "name": "Charles DE KETELAERE",
+  "code": "BEL",
+  "id": "400021534"
  },
  "fairPlay": {
   "group": {
@@ -562,7 +562,7 @@
    "CZE": -1,
    "CAN": -11,
    "BIH": -12,
-   "USA": -9,
+   "USA": -11,
    "PAR": -18,
    "HAI": -7,
    "SCO": -5,
@@ -571,7 +571,7 @@
    "BRA": -8,
    "MAR": -6,
    "QAT": -12,
-   "SUI": -3,
+   "SUI": -6,
    "CIV": -4,
    "ECU": -12,
    "GER": -6,
@@ -582,12 +582,12 @@
    "TUN": -1,
    "KSA": -6,
    "URU": -9,
-   "ESP": -2,
+   "ESP": -3,
    "CPV": -5,
    "IRN": -6,
    "NZL": -4,
    "BEL": -9,
-   "EGY": -9,
+   "EGY": -16,
    "FRA": -4,
    "SEN": -3,
    "IRQ": -8,
@@ -600,40 +600,39 @@
    "PAN": -5,
    "ENG": -11,
    "CRO": -4,
-   "POR": -5,
+   "POR": -7,
    "COD": -6,
    "UZB": -4,
-   "COL": -6
+   "COL": -9
   }
  },
  "suspensions": {
-  "USA": [
+  "SUI": [
    {
-    "id": "466624",
-    "name": "Folarin BALOGUN",
-    "bans": [
-     {
-      "type": "red",
-      "due": [
-       "400021524"
-      ],
-      "banned": "400021534"
-     }
-    ]
-   }
-  ],
-  "EGY": [
-   {
-    "id": "369267",
-    "name": "YASSER IBRAHIM",
+    "id": "311558",
+    "name": "Granit XHAKA",
     "bans": [
      {
       "type": "yellows",
       "due": [
-       "400021479",
-       "400021515"
+       "400021451",
+       "400021535"
       ],
-      "banned": "400021528"
+      "banned": "400021537"
+     }
+    ]
+   },
+   {
+    "id": "401448",
+    "name": "Denis ZAKARIA",
+    "bans": [
+     {
+      "type": "yellows",
+      "due": [
+       "400021447",
+       "400021535"
+      ],
+      "banned": "400021537"
      }
     ]
    }

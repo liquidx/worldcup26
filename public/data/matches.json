@@ -6623,22 +6623,22 @@
    "group": null,
    "date": "2026-07-06T19:00:00Z",
    "venueId": "400257526",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "POR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "ESP",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "W83",
    "phB": "W84",
-   "winner": null,
-   "attendance": null,
+   "winner": "ESP",
+   "attendance": 70649,
    "officials": [
     {
      "id": "360460",
@@ -6715,22 +6715,22 @@
    "group": null,
    "date": "2026-07-07T00:00:00Z",
    "venueId": "400216606",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "95'",
    "home": {
     "code": "USA",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "BEL",
-    "score": null,
+    "score": 4,
     "pen": null
    },
    "phA": "W81",
    "phB": "W82",
-   "winner": null,
-   "attendance": null,
+   "winner": "BEL",
+   "attendance": 66925,
    "officials": [
     {
      "id": "361034",
@@ -6807,22 +6807,22 @@
    "group": null,
    "date": "2026-07-07T16:00:00Z",
    "venueId": "400098290",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "102'",
    "home": {
     "code": "ARG",
-    "score": null,
+    "score": 3,
     "pen": null
    },
    "away": {
     "code": "EGY",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "phA": "W86",
    "phB": "W88",
-   "winner": null,
-   "attendance": null,
+   "winner": "ARG",
+   "attendance": 68239,
    "officials": [
     {
      "id": "399029",
@@ -6899,22 +6899,22 @@
    "group": null,
    "date": "2026-07-07T20:00:00Z",
    "venueId": "400248370",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "130'",
    "home": {
     "code": "SUI",
-    "score": null,
-    "pen": null
+    "score": 0,
+    "pen": 4
    },
    "away": {
     "code": "COL",
-    "score": null,
-    "pen": null
+    "score": 0,
+    "pen": 3
    },
    "phA": "W85",
    "phB": "W87",
-   "winner": null,
-   "attendance": null,
+   "winner": "SUI",
+   "attendance": 52497,
    "officials": [
     {
      "id": "408378",
@@ -7007,7 +7007,74 @@
    "phB": "W90",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "416165",
+     "country": "ARG",
+     "role": "referee",
+     "name": {
+      "en": "Facundo TELLO",
+      "fr": "Facundo TELLO",
+      "zh": "Facundo TELLO",
+      "ar": "Facundo TELLO",
+      "es": "Facundo TELLO",
+      "de": "Facundo TELLO",
+      "pt": "Facundo TELLO",
+      "it": "Facundo TELLO",
+      "ja": "Facundo TELLO",
+      "ko": "Facundo TELLO",
+      "id": "Facundo TELLO",
+      "ru": "Facundo TELLO"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "383174",
+     "country": "ARG",
+     "role": "fourth",
+     "name": {
+      "en": "Dario HERRERA",
+      "fr": "Dario HERRERA",
+      "zh": "Dario HERRERA",
+      "ar": "Dario HERRERA",
+      "es": "Dario HERRERA",
+      "de": "Dario HERRERA",
+      "pt": "Dario HERRERA",
+      "it": "Dario HERRERA",
+      "ja": "Dario HERRERA",
+      "ko": "Dario HERRERA",
+      "id": "Dario HERRERA",
+      "ru": "Dario HERRERA"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021538",
@@ -7018,13 +7085,88 @@
    "venueId": "400017978",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": "ESP",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "BEL",
+    "score": null,
+    "pen": null
+   },
    "phA": "W93",
    "phB": "W94",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "347710",
+     "country": "ENG",
+     "role": "referee",
+     "name": {
+      "en": "Michael OLIVER",
+      "fr": "Michael OLIVER",
+      "zh": "Michael OLIVER",
+      "ar": "Michael OLIVER",
+      "es": "Michael OLIVER",
+      "de": "Michael OLIVER",
+      "pt": "Michael OLIVER",
+      "it": "Michael OLIVER",
+      "ja": "Michael OLIVER",
+      "ko": "Michael OLIVER",
+      "id": "Michael OLIVER",
+      "ru": "Michael OLIVER"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    },
+    {
+     "id": "446932",
+     "country": "BRA",
+     "role": "fourth",
+     "name": {
+      "en": "Ramon ABATTI",
+      "fr": "Ramon ABATTI",
+      "zh": "Ramon ABATTI",
+      "ar": "Ramon ABATTI",
+      "es": "Ramon ABATTI",
+      "de": "Ramon ABATTI",
+      "pt": "Ramon ABATTI",
+      "it": "Ramon ABATTI",
+      "ja": "Ramon ABATTI",
+      "ko": "Ramon ABATTI",
+      "id": "Ramon ABATTI",
+      "ru": "Ramon ABATTI"
+     },
+     "typeName": {
+      "en": "Fourth official",
+      "fr": "Quatrième arbitre",
+      "zh": "第四官员",
+      "ar": "الحَكَم الرابع",
+      "es": "Cuarto/a árbitro/a",
+      "de": "Vierter Offizieller",
+      "pt": "Quarto árbitro",
+      "it": "Quarto arbitro",
+      "ja": "第 4 審判員",
+      "ko": "대기심",
+      "id": "Ofisial keempat",
+      "ru": "Четвертый судья"
+     }
+    }
+   ]
   },
   {
    "id": "400021539",
@@ -7060,8 +7202,16 @@
    "venueId": "400254717",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": "ARG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SUI",
+    "score": null,
+    "pen": null
+   },
    "phA": "W95",
    "phB": "W96",
    "winner": null,
