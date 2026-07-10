@@ -1,6 +1,14 @@
 {
  "scorers": [
   {
+   "id": "389867",
+   "name": "Kylian MBAPPE",
+   "code": "FRA",
+   "no": 10,
+   "goals": 8,
+   "ownGoals": 0
+  },
+  {
    "id": "229397",
    "name": "Lionel MESSI",
    "code": "ARG",
@@ -17,19 +25,19 @@
    "ownGoals": 0
   },
   {
-   "id": "389867",
-   "name": "Kylian MBAPPE",
-   "code": "FRA",
-   "no": 10,
-   "goals": 7,
-   "ownGoals": 0
-  },
-  {
    "id": "369419",
    "name": "Harry KANE",
    "code": "ENG",
    "no": 9,
    "goals": 6,
+   "ownGoals": 0
+  },
+  {
+   "id": "398680",
+   "name": "Ousmane DEMBELE",
+   "code": "FRA",
+   "no": 7,
+   "goals": 5,
    "ownGoals": 0
   },
   {
@@ -61,14 +69,6 @@
    "name": "Mikel OYARZABAL",
    "code": "ESP",
    "no": 21,
-   "goals": 4,
-   "ownGoals": 0
-  },
-  {
-   "id": "398680",
-   "name": "Ousmane DEMBELE",
-   "code": "FRA",
-   "no": 7,
    "goals": 4,
    "ownGoals": 0
   },
@@ -322,7 +322,7 @@
   }
  ],
  "cards": {
-  "yellow": 259,
+  "yellow": 260,
   "red": 14,
   "players": [
    {
@@ -430,6 +430,14 @@
     "r": 1
    },
    {
+    "id": "403083",
+    "name": "Issa DIOP",
+    "code": "MAR",
+    "no": 14,
+    "y": 3,
+    "r": 0
+   },
+   {
     "id": "464924",
     "name": "Abdukodir KHUSANOV",
     "code": "UZB",
@@ -476,18 +484,10 @@
     "no": 3,
     "y": 2,
     "r": 0
-   },
-   {
-    "id": "308386",
-    "name": "CASEMIRO",
-    "code": "BRA",
-    "no": 5,
-    "y": 2,
-    "r": 0
    }
   ]
  },
- "attAvg": 65204,
+ "attAvg": 65190,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -569,7 +569,7 @@
    "AUS": -5,
    "TUR": -3,
    "BRA": -8,
-   "MAR": -6,
+   "MAR": -7,
    "QAT": -12,
    "SUI": -6,
    "CIV": -4,
