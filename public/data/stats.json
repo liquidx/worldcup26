@@ -322,14 +322,22 @@
   }
  ],
  "cards": {
-  "yellow": 276,
-  "red": 15,
+  "yellow": 282,
+  "red": 16,
   "players": [
    {
     "id": "393480",
     "name": "Breel EMBOLO",
     "code": "SUI",
     "no": 7,
+    "y": 1,
+    "r": 1
+   },
+   {
+    "id": "448252",
+    "name": "Enzo FERNANDEZ",
+    "code": "ARG",
+    "no": 24,
     "y": 1,
     "r": 1
    },
@@ -476,18 +484,10 @@
     "no": 16,
     "y": 2,
     "r": 0
-   },
-   {
-    "id": "395205",
-    "name": "BERNARDO SILVA",
-    "code": "POR",
-    "no": 10,
-    "y": 2,
-    "r": 0
    }
   ]
  },
- "attAvg": 65314,
+ "attAvg": 65490,
  "biggestWin": {
   "diff": 6,
   "id": "400021464",
@@ -592,7 +592,7 @@
    "SEN": -3,
    "IRQ": -8,
    "NOR": -3,
-   "ARG": -9,
+   "ARG": -17,
    "ALG": -3,
    "AUT": -5,
    "JOR": -4,
