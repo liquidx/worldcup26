@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-01T09:30:17.967Z",
+ "updatedAt": "2026-09-02T08:52:33.681Z",
  "season": "285023",
  "titleOdds": [
   {
@@ -16,6 +16,7 @@
   "flags": 179
  },
  "errors": [
+  "wiki squads: HTTP 429",
   "geocode New Tecumseth: no usable result — not cached, will retry next run"
  ],
  "sources": [
