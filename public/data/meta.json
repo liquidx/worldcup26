@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-03T09:05:10.205Z",
+ "updatedAt": "2026-09-04T08:55:30.186Z",
  "season": "285023",
  "titleOdds": [
   {
@@ -16,23 +16,7 @@
   "flags": 179
  },
  "errors": [
-  "geocode New Tecumseth: no usable result — not cached, will retry next run",
-  "weather SoFi Stadium: HTTP 500",
-  "weather Mercedes-Benz Stadium: HTTP 500",
-  "weather Lumen Field: HTTP 500",
-  "weather Estadio Azteca (Estadio Banorte): HTTP 500",
-  "weather Estadio BBVA: JSON Parse error: Unexpected identifier \"Unexpected\"",
-  "weather BMO Field: JSON Parse error: Unexpected identifier \"Unexpected\"",
-  "weather BC Place: JSON Parse error: Unexpected identifier \"Unexpected\"",
-  "weather Lincoln Financial Field: JSON Parse error: Unexpected identifier \"Unexpected\"",
-  "weather Gillette Stadium: JSON Parse error: Unexpected identifier \"Unexpected\"",
-  "weather NRG Stadium: JSON Parse error: Unexpected identifier \"Unexpected\"",
-  "weather Estadio Akron: The operation was aborted.",
-  "weather Arrowhead Stadium (GEHA Field): JSON Parse error: Unexpected identifier \"Unexpected\"",
-  "weather Levi's Stadium: JSON Parse error: Unexpected identifier \"Unexpected\"",
-  "weather Hard Rock Stadium: JSON Parse error: Unexpected identifier \"Unexpected\"",
-  "weather AT&T Stadium: JSON Parse error: Unexpected identifier \"Unexpected\"",
-  "weather MetLife Stadium: JSON Parse error: Unexpected identifier \"Unexpected\""
+  "geocode New Tecumseth: no usable result — not cached, will retry next run"
  ],
  "sources": [
   "api.fifa.com",
